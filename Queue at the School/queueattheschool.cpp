@@ -10,9 +10,10 @@ int main(){
     cin >> s;
 
     for(int i = 0; i < t; i++){
-        for(int i = 0; i < s.size(); i++){
-            if(s[i] == 'B' && s[i+1] == 'G'){
-                swap(s[i],s[i+1]);
+        for(int j = 0; j < s.size(); j++){
+            if(s[j] == 'B' && s[j+1] == 'G'){
+                swap(s[j],s[j+1]);
+                j++;
             }
     }
     }
