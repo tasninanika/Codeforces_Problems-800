@@ -15,7 +15,7 @@ int main(){
                 swap(s[j],s[j+1]);
                 j++;
             }
-    }
+        }
     }
 
     cout << s << endl;
