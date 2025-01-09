@@ -1,4 +1,4 @@
-#include<iostream>
+#include<bits/stdc++.h>
 
 using namespace std;
 
@@ -14,6 +14,8 @@ int main(){
             swap(s[i],s[i+1]);
         }
     }
+
+
 
     return 0;
 }
