@@ -13,7 +13,13 @@ int main(){
         sum = sum + arr[i];
     }
 
-    cout << sum << endl;
+    if(sum != 0){
+        cout << "HARD" << endl;
+    }
+    else{
+        cout << "EASY" << endl;
+    }
+
 
 
 
