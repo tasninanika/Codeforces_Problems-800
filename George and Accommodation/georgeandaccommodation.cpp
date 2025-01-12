@@ -8,7 +8,7 @@ int main(){
     for(int i = 0; i < n; i++){
         cin >> capacity >> person;
         if(person - capacity >= 2){
-            c++
+            c++;
         }
     }
 
