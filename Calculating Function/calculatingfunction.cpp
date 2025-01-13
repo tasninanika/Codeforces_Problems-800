@@ -5,11 +5,13 @@ int main(){
     long long n;
     cin >> n;
 
-    int arr[n];
-
-    for(int i = 0; i < n; i++){
-        cin >> arr[i];
+    if(n % 2 == 0){
+        cout << n / 2 << endl;
     }
+    else{
+        cout << n / 2 - n << endl;
+    }
+
 
     return 0;
 }
