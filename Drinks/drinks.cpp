@@ -7,7 +7,8 @@ int main(){
 
     int arr[n];
     for(int i = 0; i < n; i++){
-
+        cin >> arr[i];
+        sum += arr[i];
     }
 
     return 0;
