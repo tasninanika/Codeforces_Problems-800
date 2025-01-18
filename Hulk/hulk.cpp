@@ -5,18 +5,15 @@ int main(){
     int n, c = 0;
     cin >> n;
 
-    for(int i = 0; i < n; i++){
-        if(n == i){
+    for(int i = 1; i <= n; i++){
+        if(i == 1){
             cout << "I hate";
-            c++;
         }
-        else if(c == i){
-            cout << "I hate that I love it";
-            c++;
+        else if(i % 2 != 0){
+            cout << " that I hate";
         }
         else{
-            cout << "I hate that I love it I hate it";
-            c++;
+            cout << " that I love";
         }
     }
 
