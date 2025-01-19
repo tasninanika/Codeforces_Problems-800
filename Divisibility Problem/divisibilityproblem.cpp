@@ -11,6 +11,10 @@ int main(){
         if(a % b == 0){
             cout << 0 << endl;
         }
+        else{
+            r = b -(a % b);
+            cout << r << endl;
+        }
     }
     return 0;
 }
