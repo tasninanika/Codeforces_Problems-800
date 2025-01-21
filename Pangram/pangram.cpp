@@ -26,5 +26,12 @@ int main(){
         }
     }
 
+    if(c == 26){
+        cout << "YES" << endl;
+    }
+    else{
+        cout << "NO" << endl;
+    }
+
     return 0;
 }
