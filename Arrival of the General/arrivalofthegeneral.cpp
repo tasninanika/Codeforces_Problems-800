@@ -29,7 +29,13 @@ int main(){
 
     min_sec = (pos1 - 1) + (n - pos2);
 
-    cout << min_sec << endl;
+    if(min_sec < 0){
+        cout << 0 << endl;
+    }
+    else{
+        cout << min_sec << endl;
+    }
+
 
     return 0;
 }
