@@ -11,18 +11,17 @@ int main(){
     }
 
     for(int i = 0; i < n; i++){
+        p[n].push_back(q[i]);
+    }
+
+    for(int i = 0; i < n; i++){
         for(int j = 0; j < n - i - 1; j++){}
             if(p[j] > p[j+1]){
                 swap(p[j], p[j+1]);
             }
     }
 
-    for(int i = 0; i < n; i++){
-        for(int j = 0; j < n - i - 1; j++){}
-            if(q[j] > q[j+1]){
-                swap(q[j], q[j+1]);
-            }
-    }
+
 
     return 0;
 }
