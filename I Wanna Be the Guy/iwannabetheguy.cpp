@@ -2,42 +2,33 @@
 using namespace std;
 
 int main(){
-    int n;
-    cin >> n;
+    int n, p, q, arr[200], c = 0;
+    cin >> n >> p;
 
-    int p;
-    cin >> p;
-
-    int arrp[101];
     for(int i = 0; i < p; i++){
-        cin >> arrp[i];
+        cin >> arr[i];
     }
 
-    int q;
     cin >> q;
 
-    int arrq[q];
-    for(int i = 0; i < q; i++){
-        cin >> arrq[i];
+    for(int i = p; i < p+q; i++){
+        cin >> arr[i];
     }
 
-    for(int i = 0; i < q; i++){
-        arrp[p + i] = arrq[i];
-    }
 
-    for(int i = 0; i < n; i++){
-        for(int j = 0; j < n - i - 1; j++){
-            if(arrp[j] > arrp[j+1]){
-                swap(arrp[j], arrp[j+1]);
+    for(int i = 0; i < (p+q); i++){
+        for(int j = 0; j < (p+q - i - 1); j++){
+            if(arr[j] > arr[j+1]){
+                swap(arr[j], arr[j+1]);
             }
         }
     }
 
-    int c = 0;
-    for(int i = 0; i < n; i++){
-        for(int j = 0; j < p+q; j++){
-            if(i == arrp[j])
-                c++;
+
+
+    for(int i = 0; i < p+q; i++){
+        if(arr[i] != arr[i+1]){
+            c++;
         }
     }
 
