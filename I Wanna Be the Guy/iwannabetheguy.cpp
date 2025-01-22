@@ -7,8 +7,15 @@ int main(){
 
     int p, q;
     cin >> p >> q;
-    for(int i = 0; i < ; i++){
-        cin >> p[i] >> q[i];
+
+    int arr[p];
+    for(int i = 0; i < p; i++){
+        cin >> arr[i];
+    }
+
+    int arr[p];
+    for(int i = 0; i < p; i++){
+        cin >> arr[i];
     }
 
     for(int i = 0; i < n; i++){
