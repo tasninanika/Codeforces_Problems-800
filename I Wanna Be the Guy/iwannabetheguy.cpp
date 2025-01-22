@@ -33,9 +33,21 @@ int main(){
         }
     }
 
-    for (int i = 0; i < p+q; i++) {
-        cout << arrp[i] << " ";
+    int c = 0;
+    for(int i = 0; i < n; i++){
+        for(int j = 0; j < p+q; j++){
+            if(i == arrp[j])
+                c++;
+        }
     }
+
+    if(c == n){
+        cout << "I become the guy." << endl;
+    }
+    else{
+        cout << "Oh, my keyboard!" << endl;
+    }
+
 
 
     return 0;
