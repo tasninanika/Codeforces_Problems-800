@@ -5,33 +5,36 @@ int main(){
     int n;
     cin >> n;
 
-    int p, q;
-    cin >> p >> q;
+    int p;
+    cin >> p;
 
-    int arr[p];
+    int arrp[101];
     for(int i = 0; i < p; i++){
-        cin >> arr[i];
+        cin >> arrp[i];
     }
 
-    int arr[p];
-    for(int i = 0; i < p; i++){
-        cin >> arr[i];
+    int q;
+    cin >> q;
+
+    int arrq[q];
+    for(int i = 0; i < q; i++){
+        cin >> arrq[i];
     }
 
-    for(int i = 0; i < n; i++){
-        p[n + i] = q[i];
+    for(int i = 0; i < q; i++){
+        arrp[p + i] = arrq[i];
     }
 
     for(int i = 0; i < n; i++){
         for(int j = 0; j < n - i - 1; j++){
-            if(p[j] > p[j+1]){
-                swap(p[j], p[j+1]);
+            if(arrp[j] > arrp[j+1]){
+                swap(arrp[j], arrp[j+1]);
             }
         }
     }
 
-    for (int i = 0; i < 2 * n; i++) {
-        cout << p[i] << " ";
+    for (int i = 0; i < p+q; i++) {
+        cout << arrp[i] << " ";
     }
 
 
