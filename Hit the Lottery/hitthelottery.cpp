@@ -14,7 +14,11 @@ int main(){
             n = n - 20;
             c++;
         }
-        else if(n >= 5 && n < 20){
+        else if(n >= 10 && n < 20){
+            n = n - 10;
+            c++;
+        }
+        else if(n >= 5 && n < 10){
             n = n - 5;
             c++;
         }
