@@ -21,6 +21,18 @@ int main(){
         n = n - 1;
         c++;
     }
+    else{
+        n = 0;
+    }
+
+    if(n == 0){
+        cout << 0 << endl;
+    }
+    else{
+        cout << c << endl;
+    }
+
+
 
     return 0;
 }
