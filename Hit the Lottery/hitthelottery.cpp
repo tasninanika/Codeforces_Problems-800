@@ -9,6 +9,18 @@ int main(){
         n = n - 100;
         c++;
     }
+    else if(n >= 20 && n < 100){
+        n = n - 20;
+        c++;
+    }
+    else if(n >= 5 && n < 20){
+        n = n - 5;
+        c++;
+    }
+    else if(n >= 1 && n < 5){
+        n = n - 1;
+        c++;
+    }
 
     return 0;
 }
