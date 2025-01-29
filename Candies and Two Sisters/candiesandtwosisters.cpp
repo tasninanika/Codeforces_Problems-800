@@ -10,7 +10,7 @@ int main(){
     for(int i = 0; i < t; i++){
         cin >> n;
         for(int j = 1; j <= n; j++){
-            b = i;
+            b = j;
             a = n - b;
             if(a > b){
                 c++;
