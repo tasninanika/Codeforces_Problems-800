@@ -6,10 +6,16 @@ int main(){
     cin >> t;
 
     long long n, a, b;
+    int c = 0;
     for(int i = 0; i < t; i++){
-        cin >> n;
-        b = i;
-
+        for(int j = 1; j <= n; j++){
+            cin >> n;
+            b = i;
+            a = n - b;
+            if(a > b){
+                c++;
+            }
+        }
     }
 
 
