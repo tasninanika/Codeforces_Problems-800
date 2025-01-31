@@ -8,7 +8,9 @@ int main(){
     for(int i = 1; i <= n; i++){
         for(int j = 0; j < m; j++){
             if(i % 2 == 0){
-                cout << ".";
+                if(j == m - 1){
+
+                }
             }
             else{
                 cout << "#";
