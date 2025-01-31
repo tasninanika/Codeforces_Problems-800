@@ -12,7 +12,7 @@ int main(){
                     cout << "#";
                 }
                 else{
-
+                    cout << ".";
                 }
             }
             else{
