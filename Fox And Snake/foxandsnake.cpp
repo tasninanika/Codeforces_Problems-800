@@ -11,6 +11,9 @@ int main(){
                 if(j == m - 1){
                     cout << "#";
                 }
+                else{
+
+                }
             }
             else{
                 cout << "#";
