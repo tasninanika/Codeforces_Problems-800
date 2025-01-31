@@ -15,6 +15,9 @@ int main(){
                     cout << ".";
                 }
             }
+            else if(1 % 4 == 0){
+
+            }
             else{
                 cout << "#";
             }
