@@ -7,7 +7,7 @@ int main(){
 
     for(int i = 1; i <= n; i++){
         for(int j = 0; j < m; j++){
-            if(i % 2 == 0){
+            if(i % 4 == 0){
                 if(j == m - 1){
                     cout << "#";
                 }
@@ -27,6 +27,7 @@ int main(){
                 cout << "#";
             }
         }
+        cout << endl;
 
     }
 
