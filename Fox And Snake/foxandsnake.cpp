@@ -15,8 +15,10 @@ int main(){
                     cout << ".";
                 }
             }
-            else if(1 % 4 == 0){
-
+            else if(1 % 4 == 2){
+                if(j == 0){
+                    cout << "#";
+                }
             }
             else{
                 cout << "#";
