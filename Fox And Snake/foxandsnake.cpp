@@ -9,7 +9,7 @@ int main(){
         for(int j = 0; j < m; j++){
             if(i % 2 == 0){
                 if(j == m - 1){
-
+                    cout << "#";
                 }
             }
             else{
