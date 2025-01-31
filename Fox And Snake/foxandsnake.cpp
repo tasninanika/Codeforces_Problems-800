@@ -19,6 +19,9 @@ int main(){
                 if(j == 0){
                     cout << "#";
                 }
+                else{
+                    cout << ".";
+                }
             }
             else{
                 cout << "#";
