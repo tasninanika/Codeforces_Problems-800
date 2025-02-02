@@ -2,6 +2,7 @@
 using namespace std;
 
 int main(){
+    string s1, s2, s3;
 
 
     return 0;
