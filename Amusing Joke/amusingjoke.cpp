@@ -9,7 +9,9 @@ int main(){
 
     for(int i = 0; i < s3.size(); i++){
         for(int j = 0; j < s3.size() - i - 1; j++){
-
+            if(s[j] > s[j+1]){
+                swap(s[j],s[j+1]);
+            }
         }
     }
 
