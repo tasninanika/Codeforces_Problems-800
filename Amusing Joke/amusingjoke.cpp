@@ -26,6 +26,9 @@ int main(){
     if(s3 == s4){
         cout << "YES" << endl;
     }
+    else{
+        cout << "NO" << endl;
+    }
 
     return 0;
 }
