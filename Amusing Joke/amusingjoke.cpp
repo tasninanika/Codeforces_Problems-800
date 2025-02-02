@@ -7,7 +7,11 @@ int main(){
 
     string s4 = s1 + s2;
 
-    for(int i = 0; i < s3.size(); i++)
+    for(int i = 0; i < s3.size(); i++){
+        for(int j = 0; j < s3.size() - i - 1; j++){
+
+        }
+    }
 
     return 0;
 }
