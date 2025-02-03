@@ -9,6 +9,21 @@ int main(){
         int n, c = 0;
         cin >> n;
 
+        if(n % 10 != 0){
+            cout << n % 10 << " ";
+            c++;
+        }
+        int r;
+        r = n % 10;
+        n -= r;
+
+        if(n % 100 != 0){
+            cout << n % 100 << " ";
+            c++;
+        }
+        r = n % 100;
+        n -= r;
+
 
     }
 
