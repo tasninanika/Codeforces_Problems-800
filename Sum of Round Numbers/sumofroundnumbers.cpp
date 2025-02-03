@@ -13,38 +13,36 @@ int main(){
         cin >> n;
 
         if(n % 10 != 0){
-            cout << n % 10 << " ";
-            c++;
+            num.push_back(n % 10);
         }
         int r;
         r = n % 10;
         n -= r;
 
         if(n % 100 != 0){
-            cout << n % 100 << " ";
-            c++;
+            num.push_back(n % 100);
         }
         r = n % 100;
         n -= r;
 
         if(n % 1000 != 0){
-            cout << n % 1000 << " ";
-            c++;
+            num.push_back(n % 1000);
         }
         r = n % 1000;
         n -= r;
 
         if(n % 10000 != 0){
-            cout << n % 10000 << " ";
-            c++;
+            num.push_back(n % 10000);
         }
         if(n >= 10000 && n % 10000 == 0){
-            cout << n % 10000 << " ";
-            c++;
+            num.push_back(n);
         }
 
-        cout << c;
+        cout << num.size() << endl;
 
+        for(int i = 0; i < num.size(); i++){
+            cout << num[i] << " ";
+        }
 
     }
 
