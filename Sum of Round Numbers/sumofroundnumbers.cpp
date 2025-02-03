@@ -1,4 +1,5 @@
 #include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 
 int main(){
@@ -6,6 +7,8 @@ int main(){
     cin >> t;
 
     for(int i = 0; i < t; i++){
+        vector<int> num;
+
         int n, c = 0;
         cin >> n;
 
@@ -35,13 +38,12 @@ int main(){
             cout << n % 10000 << " ";
             c++;
         }
-        if(n > 10000 && n % 10000 == 0){
+        if(n >= 10000 && n % 10000 == 0){
             cout << n % 10000 << " ";
             c++;
         }
 
-        r = n % 10000;
-        n -= r;
+        cout << c;
 
 
     }
