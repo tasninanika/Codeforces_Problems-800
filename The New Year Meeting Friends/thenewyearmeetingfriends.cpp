@@ -8,10 +8,10 @@ int main(){
     total = x1 + x2 + x3;
 
     if(total % 2 == 0){
-        cout << total / 3 << endl;
+        cout << total / 2 << endl;
     }
     else{
-        cout << (total  / 3) + 1 << endl;
+        cout << (total  / 2) + 1 << endl;
     }
 
     return 0;
