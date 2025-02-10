@@ -16,11 +16,11 @@ int main(){
 
     for(int i = 0; i < n; i++){
         if(arr[i] > maximum){
-            arr[i] = maximum;
+            maximum = arr[i];
             c++;
         }
         if(arr[i] < minimum){
-            arr[i] = minimum;
+            minimum = arr[i];
             c++;
         }
     }
