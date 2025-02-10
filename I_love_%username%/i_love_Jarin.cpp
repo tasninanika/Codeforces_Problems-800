@@ -15,7 +15,9 @@ int main(){
     int minimum = arr[0];
 
     for(int i = 0; i < n; i++){
+        if(arr[i] > maximum){
 
+        }
     }
 
     return 0;
