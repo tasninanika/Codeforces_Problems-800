@@ -11,5 +11,7 @@ int main(){
         cin >> arr[i];
     }
 
+    int max = arr[0];
+
     return 0;
 }
