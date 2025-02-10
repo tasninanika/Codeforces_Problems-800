@@ -11,7 +11,8 @@ int main(){
         cin >> arr[i];
     }
 
-    int max = arr[0];
+    int maximum = arr[0];
+    int minimum = arr[0];
 
     return 0;
 }
