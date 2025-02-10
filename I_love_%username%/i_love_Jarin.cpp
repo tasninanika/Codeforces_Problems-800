@@ -14,5 +14,9 @@ int main(){
     int maximum = arr[0];
     int minimum = arr[0];
 
+    for(int i = 0; i < n; i++){
+
+    }
+
     return 0;
 }
