@@ -19,6 +19,10 @@ int main(){
             arr[i] = maximum;
             c++;
         }
+        if(arr[i] < minimum){
+            arr[i] = minimum;
+            c++;
+        }
     }
 
     return 0;
