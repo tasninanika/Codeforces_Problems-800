@@ -8,7 +8,7 @@ int main(){
     int total_drinks = k * l;
     total_drinks = total_drinks / nl;
     int total_slices = c * d;
-
+    int total_salt = p / np;
 
     return 0;
 }
