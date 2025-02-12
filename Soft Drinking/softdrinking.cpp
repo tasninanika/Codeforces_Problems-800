@@ -12,5 +12,7 @@ int main(){
 
     int min_toast = min(min(total_drinks,total_slices),total_salt) / n;
 
+    cout << min_toast << endl;
+
     return 0;
 }
