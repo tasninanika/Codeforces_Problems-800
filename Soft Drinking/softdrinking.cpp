@@ -8,5 +8,6 @@ int main(){
     int total_drinks = k * l;
     total_drinks = total_drinks / nl;
 
+
     return 0;
 }
