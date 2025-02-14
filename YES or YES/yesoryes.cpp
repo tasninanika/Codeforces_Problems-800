@@ -8,6 +8,8 @@ int main(){
     string s;
     for(int i = 0; i < t; i++){
         cin >> s;
+
+        string str = tolower(s);
     }
 
     return 0;
