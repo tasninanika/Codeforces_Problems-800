@@ -10,6 +10,10 @@ int main(){
         cin >> s;
 
         string str = tolower(s);
+
+        if(s == 'yes'){
+            cout << "YES" << endl;
+        }
     }
 
     return 0;
