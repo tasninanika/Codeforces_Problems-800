@@ -9,7 +9,10 @@ int main(){
     for(int i = 0; i < t; i++){
         cin >> s;
 
-        s[i] = tolower(s[i]);
+        for(int i = 0; i < s.size(); i++) {
+            s[i] = tolower(s[i]);
+        }
+
 
         if(s == "yes"){
             cout << "YES" << endl;
