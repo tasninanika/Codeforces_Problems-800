@@ -14,6 +14,9 @@ int main(){
         if(s == 'yes'){
             cout << "YES" << endl;
         }
+        else{
+            cout << "NO" << endl;
+        }
     }
 
     return 0;
