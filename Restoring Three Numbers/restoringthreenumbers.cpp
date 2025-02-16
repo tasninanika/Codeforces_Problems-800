@@ -18,7 +18,10 @@ int main(){
     }
 
     c = x[3] - x[0];
+    b = x[2] - c;
+    a = x[0] - b;
 
+    cout << a << " " << b << " " << c;
 
     return 0;
 }
