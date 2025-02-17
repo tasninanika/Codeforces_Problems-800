@@ -16,7 +16,9 @@ int main(){
     if(c == 1){
         cout << "0";
     }
-
+    else{
+        cout << abs(c / 2);
+    }
 
     return 0;
 }
