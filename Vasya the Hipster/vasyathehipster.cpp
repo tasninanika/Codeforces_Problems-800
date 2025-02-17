@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    int a, b;
+    int a, b, c;
     cin >> a >> b;
 
     if(a < b){
@@ -12,7 +12,7 @@ int main(){
         cout << b << " ";
     }
 
-
+    c = abs(a-b);
 
 
     return 0;
