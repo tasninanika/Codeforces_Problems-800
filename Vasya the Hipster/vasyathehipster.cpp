@@ -13,6 +13,9 @@ int main(){
     }
 
     c = abs(a-b);
+    if(c == 1){
+        cout << "0";
+    }
 
 
     return 0;
