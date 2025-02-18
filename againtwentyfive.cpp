@@ -6,7 +6,7 @@ int main(){
     long long n;
     cin >> n;
 
-
+    int result;
 
     for(int i = 0; i < n; i++){
         result = 5 * 5
