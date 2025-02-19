@@ -18,6 +18,8 @@ int main(){
       }
     }
 
+    cout << sereja << " ";
+
 
     return 0;
 }
