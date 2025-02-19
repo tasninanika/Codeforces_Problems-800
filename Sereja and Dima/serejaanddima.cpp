@@ -4,7 +4,7 @@ using namespace std;
 
 int main(){
 
-    int n, sereja, dima;
+    int n, sereja = 0, dima = 0;
     cin >> n;
 
     int arr[n];
@@ -12,9 +12,12 @@ int main(){
         cin >> arr[i];
     }
 
-    for(int i = 0; i < n/2; i++){
-        sereja =
+    if(n % 2 == 0){
+      for(int i = 0; i < n/2; i++){
+        sereja += arr[i];
+      }
     }
+
 
     return 0;
 }
