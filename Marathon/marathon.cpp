@@ -10,7 +10,7 @@ int main(){
     for(int i = 0 ; i < t; i++){
         cin >> a >> b >> c >> d;
 
-        int x = 0
+        int x = 0;
 
         if(a > b){
             x++;
@@ -18,12 +18,14 @@ int main(){
         else if(a > c){
             x++;
         }
-        else if(a > d){
+        else{
             x++;
         }
+
+        cout << x << endl;
     }
 
-    cout << x << endl;
+
 
     return 0;
 }
