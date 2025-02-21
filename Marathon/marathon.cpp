@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
 
-    int t, c = 0;
+    int t, x = 0;
     cin >> t;
 
     int a, b, c, d;
@@ -11,17 +11,17 @@ int main(){
         cin >> a >> b >> c >> d;
 
         if(a > b){
-            c++;
+            x++;
         }
         else if(a > c){
-            c++;
+            x++;
         }
         else if(a > d){
-            c++;
+            x++;
         }
     }
 
-    cout << c << endl;
+    cout << x << endl;
 
     return 0;
 }
