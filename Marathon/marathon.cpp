@@ -3,12 +3,14 @@ using namespace std;
 
 int main(){
 
-    int t, x = 0;
+    int t;
     cin >> t;
 
     int a, b, c, d;
     for(int i = 0 ; i < t; i++){
         cin >> a >> b >> c >> d;
+
+        int x = 0
 
         if(a > b){
             x++;
