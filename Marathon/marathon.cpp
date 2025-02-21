@@ -20,6 +20,7 @@ int main(){
         if (d > a){
           count++;
         }
+        cout << count << endl;
     }
 
 
