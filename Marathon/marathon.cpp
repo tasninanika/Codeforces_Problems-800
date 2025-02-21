@@ -10,25 +10,16 @@ int main(){
     for(int i = 0 ; i < t; i++){
         cin >> a >> b >> c >> d;
 
-        if(a > b && a > c && a > d){
-            cout << "3" << endl;
+        int count = 0;
+        if (b > a){
+          count++;
         }
-        else if(a > b && a > c){
-            cout << "2" << endl;
+        if (c > a){
+          count++;
         }
-        else if(a > b && a > d){
-            cout << "2" << endl;
+        if (d > a){
+          count++;
         }
-        else if(a > b){
-            cout << "1" << endl;
-        }
-        else if(a > c){
-            cout << "1" << endl;
-        }
-        else if(a > d){
-            cout << "1" << endl;
-        }
-
     }
 
 
