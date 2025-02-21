@@ -11,10 +11,10 @@ int main(){
         cin >> a >> b >> c >> d;
 
         if(a > b && a > c && a > d){
-            cout << "3" < endl;
+            cout << "3" << endl;
         }
         else if(a > b && a > c){
-            cout << "2" < endl;
+            cout << "2" << endl;
         }
         else if(a > b && a > d){
             cout << "2" << endl;
