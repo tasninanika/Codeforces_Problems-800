@@ -11,14 +11,14 @@ int main(){
 
         mov = abs(a - b);
 
-        if(a = b){
+        if(mov == 0){
             cout << 0 << endl;
         }
         else if(mov % 10 == 0){
-            cout << mov % 10 << endl;
+            cout << mov / 10 << endl;
         }
         else{
-            cout << (mov % 10)+1 << endl;
+            cout << (mov / 10)+1 << endl;
         }
     }
 
