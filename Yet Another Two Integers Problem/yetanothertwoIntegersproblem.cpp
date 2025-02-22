@@ -14,8 +14,11 @@ int main(){
         if(a = b){
             cout << 0 << endl;
         }
-        else if(a < b){
-
+        else if(mov % 10 == 0){
+            cout << mov % 10 << endl;
+        }
+        else{
+            cout << (mov % 10)+1 << endl;
         }
     }
 
