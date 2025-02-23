@@ -8,6 +8,10 @@ int main(){
     int number;
     while(t--){
         cin >> number;
+
+        for(int i = 0; i < number.size(); i++){
+
+        }
     }
 
     return 0;
