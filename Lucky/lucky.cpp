@@ -15,7 +15,7 @@ int main(){
             sum2 = number[3] + number[4] + number[5];
         }
         if(sum1 == sum2){
-
+            cout << "YES" << endl;
         }
     }
 
