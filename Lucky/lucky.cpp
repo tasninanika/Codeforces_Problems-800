@@ -1,23 +1,23 @@
 #include<iostream>
 using namespace std;
 
-int main(){
+int main() {
     int t;
     cin >> t;
 
-    int number;
-    while(t--){
+    while (t--) {
+        int number;
         cin >> number;
-        string str = to_string(number);
-        int sum1, sum2;
-        for(int i = 0; i < str.size(); i++){
-            sum1 = str[0] + str[1] + str[2];
-            sum2 = str[3] + str[4] + str[5];
-        }
-        if(sum1 == sum2){
+
+        int last3 = number % 1000;
+        int first3 = number / 1000;
+
+        int sum1 = (first3 / 100) + ((first3 / 10) % 10) + (first3 % 10);
+        int sum2 = (last3 / 100) + ((last3 / 10) % 10) + (last3 % 10);
+
+        if (sum1 == sum2) {
             cout << "YES" << endl;
-        }
-        else{
+        } else {
             cout << "NO" << endl;
         }
     }
