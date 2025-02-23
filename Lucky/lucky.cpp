@@ -17,6 +17,9 @@ int main(){
         if(sum1 == sum2){
             cout << "YES" << endl;
         }
+        else{
+            cout << "NO" << endl;
+        }
     }
 
     return 0;
