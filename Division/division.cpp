@@ -9,6 +9,8 @@ int main() {
         int rating;
         cin >> rating;
 
+        if (rating >= 1900)
+            cout << "Division 1" << endl;
 
     }
 
