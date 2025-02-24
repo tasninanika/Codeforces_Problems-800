@@ -15,7 +15,8 @@ int main() {
             cout << "Division 2" << endl;
         else if (rating >= 1400)
             cout << "Division 3" << endl;
-
+        else
+            cout << "Division 4" << endl;
     }
 
     return 0;
