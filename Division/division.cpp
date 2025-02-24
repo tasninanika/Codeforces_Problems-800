@@ -13,6 +13,8 @@ int main() {
             cout << "Division 1" << endl;
         else if (rating >= 1600)
             cout << "Division 2" << endl;
+        else if (rating >= 1400)
+            cout << "Division 3" << endl;
 
     }
 
