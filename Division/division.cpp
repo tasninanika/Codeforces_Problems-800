@@ -7,6 +7,8 @@ int main() {
 
     while (t--) {
         int rating;
+        cin >> rating;
+
 
     }
 
