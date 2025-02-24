@@ -11,6 +11,8 @@ int main() {
 
         if (rating >= 1900)
             cout << "Division 1" << endl;
+        else if (rating >= 1600)
+            cout << "Division 2" << endl;
 
     }
 
