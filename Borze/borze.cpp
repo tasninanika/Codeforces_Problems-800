@@ -12,7 +12,9 @@ int main(){
         else if(s[i] == "-."){
             s[i] = "1";
         }
-        else if(s[i] == "--")
+        else if(s[i] == "--"){
+            s[i] = "2";
+        }
     }
 
     return 0;
