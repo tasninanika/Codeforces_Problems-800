@@ -16,7 +16,7 @@ int main(){
         }
             else if(s[i+1] == '-'){
                 ternary_num += '2';
-                i++
+                i++;
             }
         }
     }
