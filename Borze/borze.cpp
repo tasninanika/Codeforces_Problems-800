@@ -6,7 +6,9 @@ int main(){
     cin >> s;
 
     for(int i = 0; i < s.size(); i++){
-        if(s[i] == ".")
+        if(s[i] == "."){
+            s[i] = "0";
+        }
     }
 
     return 0;
