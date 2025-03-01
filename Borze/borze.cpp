@@ -12,6 +12,7 @@ int main(){
         else if(s[i] == "-."){
             s[i] = "1";
         }
+        else if(s[i] == "--")
     }
 
     return 0;
