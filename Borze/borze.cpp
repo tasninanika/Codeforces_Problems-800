@@ -7,17 +7,17 @@ int main(){
 
     for(int i = 0; i < s.size(); i++){
         if(s[i] == '.'){
-            s[i] = '0';
+            ternary_num += '0';
         }
         else if(s[i] == '-' && s[i+1] == '.'){
-            s[i] = '1';
+            ternary_num += '1';
         }
         else if(s[i] == '-' && s[i+1] == '-'){
-            s[i] = '2';
+            ternary_num += '2';
         }
     }
 
-    cout << s << endl;
+    cout << ternary_num << endl;
 
     return 0;
 }
