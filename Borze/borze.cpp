@@ -9,6 +9,7 @@ int main(){
         if(s[i] == "."){
             s[i] = "0";
         }
+        else if(s[i] == "-.")
     }
 
     return 0;
