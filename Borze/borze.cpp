@@ -6,14 +6,14 @@ int main(){
     cin >> s;
 
     for(int i = 0; i < s.size(); i++){
-        if(s[i] == "."){
-            s[i] = "0";
+        if(s[i] == '.'){
+            s[i] = '0';
         }
-        else if(s[i] == "-."){
-            s[i] = "1";
+        else if(s[i] == '-' && s[i+1] == '.'){
+            s[i] = '1';
         }
-        else if(s[i] == "--"){
-            s[i] = "2";
+        else if(s[i] == '-' && s[i+1] == '-'){
+            s[i] = '2';
         }
     }
 
