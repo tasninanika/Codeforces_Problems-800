@@ -17,9 +17,11 @@ int main(){
 
         if (arr[0] != arr[1] && arr[0] != arr[2]) {
             cout << 1 << endl;
-        } else if (arr[1] != arr[0] && arr[1] != arr[2]) {
+        }
+        else if (arr[1] != arr[0] && arr[1] != arr[2]) {
             cout << 2 << endl;
-        } else {
+        }
+        else {
             for (int i = 2; i < n; i++) {
                 if (arr[i] != arr[0]) {
                     cout << i + 1 << endl;
