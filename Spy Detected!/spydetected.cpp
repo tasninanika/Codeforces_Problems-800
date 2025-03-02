@@ -17,7 +17,9 @@ int main(){
         int r = arr[0];
 
         for(int i = 0; i < n; i++){
-            for
+            if(arr[0] != arr[i]){
+                r = 1;
+            }
         }
 
 
