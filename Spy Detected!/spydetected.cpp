@@ -15,13 +15,13 @@ int main(){
         }
 
 
-        if (a[0] != a[1] && a[0] != a[2]) {
+        if (arr[0] != arr[1] && arr[0] != arr[2]) {
             cout << 1 << endl;
-        } else if (a[1] != a[0] && a[1] != a[2]) {
+        } else if (arr[1] != arr[0] && arr[1] != arr[2]) {
             cout << 2 << endl;
         } else {
             for (int i = 2; i < n; i++) {
-                if (a[i] != a[0]) {
+                if (arr[i] != arr[0]) {
                     cout << i + 1 << endl;
                     break;
                 }
