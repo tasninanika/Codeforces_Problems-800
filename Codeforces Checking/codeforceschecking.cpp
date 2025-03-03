@@ -5,8 +5,10 @@ int main(){
     int t;
     cin >> t;
 
-    while(t--){
 
+    char c;
+    while(t--){
+        cin >> c;
     }
 
     return 0;
