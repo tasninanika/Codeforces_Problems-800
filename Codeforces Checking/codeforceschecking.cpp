@@ -11,7 +11,12 @@ int main(){
         cin >> c;
 
         for(int i = 0; i < s.size(); i++){
-
+            if(s[i] == c){
+                cout << "YES" << endl;
+            }
+            else{
+                cout << "NO" << endl;
+            }
         }
     }
 
