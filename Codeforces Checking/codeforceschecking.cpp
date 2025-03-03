@@ -15,7 +15,9 @@ int main(){
                 l++;
             }
         }
-
+        if(l != 0){
+            cout << "YES" << endl;
+        }
     }
 
     return 0;
