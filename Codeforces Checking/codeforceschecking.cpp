@@ -18,6 +18,9 @@ int main(){
         if(l != 0){
             cout << "YES" << endl;
         }
+        else{
+            cout << "NO" << endl;
+        }
     }
 
     return 0;
