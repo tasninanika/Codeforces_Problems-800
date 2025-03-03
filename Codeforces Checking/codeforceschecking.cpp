@@ -5,7 +5,7 @@ int main(){
     int t;
     cin >> t;
 
-
+    string s = "codeforces";
     char c;
     while(t--){
         cin >> c;
