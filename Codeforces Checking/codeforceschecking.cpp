@@ -10,7 +10,9 @@ int main(){
     while(t--){
         cin >> c;
 
-        for(int i = 0; i < )
+        for(int i = 0; i < s.size(); i++){
+
+        }
     }
 
     return 0;
