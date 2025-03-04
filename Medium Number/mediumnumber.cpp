@@ -12,6 +12,9 @@ int main(){
         if(a > b && a < c){
             cout << a << endl;
         }
+        else if(a < b && b < c){
+
+        }
     }
 
 
