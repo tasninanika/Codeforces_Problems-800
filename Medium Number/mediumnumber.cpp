@@ -12,7 +12,7 @@ int main(){
         if(a > b && a < c || a > c && a < b){
             cout << a << endl;
         }
-        else if(a < b && b < c){
+        else if(a < b && b < c || a > b && b > c){
 
         }
     }
