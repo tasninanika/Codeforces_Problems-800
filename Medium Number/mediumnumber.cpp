@@ -9,7 +9,7 @@ int main(){
     while(t--){
         cin >> a >> b >> c;
 
-        if(a > b && a < c){
+        if(a > b && a < c || a > c && a < b){
             cout << a << endl;
         }
         else if(a < b && b < c){
