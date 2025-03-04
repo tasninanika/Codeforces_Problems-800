@@ -15,7 +15,9 @@ int main(){
         else if(a < b && b < c || a > b && b > c){
             cout << b << endl;
         }
-        else if(a < c &&  c < b || a > c && b < c)
+        else if(a < c &&  c < b || a > c && b < c){
+            cout << c << endl;
+        }
     }
 
 
