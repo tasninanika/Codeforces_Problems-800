@@ -14,7 +14,7 @@ int main(){
     }
 
     for(int i = 0; i < n; i++){
-
+        sum += max_num - a[i];
     }
 
     cout << sum << endl;
