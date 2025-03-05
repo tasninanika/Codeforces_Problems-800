@@ -6,7 +6,7 @@ int main(){
     cin >> n;
 
     int a[n];
-    int max_num = 0;
+    int max_num = 0, sum = 0;
     for(int i = 0; i < n; i++){
         cin >> a[i];
 
