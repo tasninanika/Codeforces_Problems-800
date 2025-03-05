@@ -12,11 +12,11 @@ int main(){
 
         max_num = max(max_num, a[i]);
 
-        sum = max_num - a[i];
+        sum += max_num - a[i];
 
     }
 
-    cout << max_num;
+    cout << sum << endl;
 
     return 0;
 }
