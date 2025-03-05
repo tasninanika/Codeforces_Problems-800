@@ -11,8 +11,9 @@ int main(){
         cin >> a[i];
 
         max_num = max(max_num, a[i]);
+    }
 
-        sum += max_num - a[i];
+    for(int i = 0; i < n; i++){
 
     }
 
