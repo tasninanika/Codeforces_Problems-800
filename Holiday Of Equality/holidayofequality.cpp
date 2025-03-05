@@ -6,9 +6,15 @@ int main(){
     cin >> n;
 
     int a[n];
+    int max_num;
     for(int i = 0; i < n; i++){
         cin >> a[i];
+
+        max_num = max(max_num, a[i]);
+
     }
+
+    cout << max_num;
 
     return 0;
 }
