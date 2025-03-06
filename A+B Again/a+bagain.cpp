@@ -8,11 +8,13 @@ int main(){
 
     int n;
     int first_digit, sec_digit;
+
     while(t--){
         cin >> n;
 
         sec_digit = n % 10;
         first_digit = n / 10;
+        sum = first_digit + sec_digit;
     }
 
     return 0;
