@@ -15,6 +15,8 @@ int main(){
         sec_digit = n % 10;
         first_digit = n / 10;
         sum = first_digit + sec_digit;
+
+        cout << sum << endl;
     }
 
     return 0;
