@@ -7,7 +7,7 @@ int main(){
 
 
     int n;
-    int first_digit, sec_digit, sum = 0;
+    int first_digit, sec_digit, sum;
 
     while(t--){
         cin >> n;
