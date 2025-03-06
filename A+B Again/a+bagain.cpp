@@ -11,6 +11,7 @@ int main(){
         cin >> n;
 
         sec_digit = n % 10;
+        first_digit = n / 10;
     }
 
     return 0;
