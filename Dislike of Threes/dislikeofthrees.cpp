@@ -10,6 +10,7 @@ int main() {
         int count = 0, num = 0;
 
         while (count < k) {
+            num++;
 
     }
 
