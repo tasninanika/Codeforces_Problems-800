@@ -7,6 +7,8 @@ int main() {
 
     while (t--) {
         cin >> k;
+        int count = 0, num = 0;
+
 
     }
 
