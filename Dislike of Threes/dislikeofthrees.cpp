@@ -9,6 +9,7 @@ int main() {
         cin >> k;
         int count = 0, num = 0;
 
+        while (count < k) {
 
     }
 
