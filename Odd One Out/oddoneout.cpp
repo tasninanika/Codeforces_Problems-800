@@ -11,6 +11,9 @@ int main(){
     else if(b != a || b != c){
         cout << b << endl;
     }
+    else if(c != a || c != b){
+
+    }
 
     return 0;
 }
