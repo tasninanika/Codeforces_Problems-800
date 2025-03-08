@@ -12,7 +12,7 @@ int main(){
         cout << b << endl;
     }
     else if(c != a || c != b){
-
+        cout << c << endl;
     }
 
     return 0;
