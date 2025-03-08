@@ -8,14 +8,14 @@ int main(){
     while(t--){
         cin >> a >> b >> c;
 
-        if(a != b || a != c){
-            cout << a << endl;
+        if(a == b){
+            cout << c << endl;
         }
-        else if(b != a || b != c){
+        else if(a == c){
             cout << b << endl;
         }
-        else if(c != a || c != b){
-            cout << c << endl;
+        else{
+            cout << a << endl;
         }
     }
 
