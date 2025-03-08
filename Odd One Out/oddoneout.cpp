@@ -9,7 +9,7 @@ int main(){
         cout << a << endl;
     }
     else if(b != a || b != c){
-
+        cout << b << endl;
     }
 
     return 0;
