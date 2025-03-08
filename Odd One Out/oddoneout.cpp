@@ -2,12 +2,13 @@
 using namespace std;
 
 int main(){
-    int t, a, b, c;
-    cin >> t >> a >> b >> c;
+    int t;
+    cin >> t;
 
     while(t--){
+
         if(a != b || a != c){
-        cout << a << endl;
+            cout << a << endl;
         }
         else if(b != a || b != c){
             cout << b << endl;
