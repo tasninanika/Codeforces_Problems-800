@@ -6,8 +6,8 @@ int main(){
     int n;
     cin >> n;
 
-    for(int x = 4; x < n; x++){
-        int y = n - x;
+    if(n % 2 == 0){
+        cout << "4" << " " << n - 4;
     }
 
     return 0;
