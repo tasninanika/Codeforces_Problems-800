@@ -5,7 +5,7 @@ int main(){
     int n, k;
     cin >> n >> k;
 
-    int y[k], c = 0;
+    int y[n], c = 0;
     for(int i = 0; i < n; i++){
         cin >> y[i];
     }
