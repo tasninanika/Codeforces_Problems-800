@@ -19,6 +19,7 @@ int main(){
         }
         else if(t == 2){
             mathematicians[m_count] = i;
+            m_count++;
         }
     }
 
