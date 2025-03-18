@@ -14,7 +14,7 @@ int main(){
         cin >> t[i];
 
         if(t == 1){
-
+            programmers[p_count] = i;
         }
     }
 
