@@ -22,7 +22,7 @@ int main(){
             m_count++;
         }
         else{
-
+            sportsmen[s_count] = i;
         }
     }
 
