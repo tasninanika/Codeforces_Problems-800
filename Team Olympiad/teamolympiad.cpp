@@ -17,6 +17,9 @@ int main(){
             programmers[p_count] = i;
             p_count++;
         }
+        else if(t == 2){
+            mathematicians[m_count] = i;
+        }
     }
 
     return 0;
