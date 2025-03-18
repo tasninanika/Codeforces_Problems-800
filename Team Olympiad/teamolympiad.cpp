@@ -16,24 +16,24 @@ int main(){
         cin >> t;
 
         if(t == 1){
-            programmers[p_count] = i;
+            programmers[p_count] = i + 1;
             p_count++;
         }
         else if(t == 2){
-            mathematicians[m_count] = i;
+            mathematicians[m_count] = i + 1;
             m_count++;
         }
         else{
-            sportsmen[s_count] = i;
+            sportsmen[s_count] = i + 1;
             s_count++;
         }
     }
 
-    int teams = min(p_count, m_count, s_count);
+    int teams = min(p_count, min(m_count, s_count));
     cout << teams << endl;
 
     for(int i = 0; i < teams; i++){
-        cout << programmers[i] << " " << mathematicians[i] << " " << sportsmen[i];
+        cout << programmers[i] << " " << mathematicians[i] << " " << sportsmen[i] << endl;
     }
 
     return 0;
