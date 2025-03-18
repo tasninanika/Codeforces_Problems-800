@@ -23,6 +23,7 @@ int main(){
         }
         else{
             sportsmen[s_count] = i;
+            s_count++;
         }
     }
 
