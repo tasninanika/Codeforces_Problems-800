@@ -21,6 +21,9 @@ int main(){
             mathematicians[m_count] = i;
             m_count++;
         }
+        else{
+
+        }
     }
 
     return 0;
