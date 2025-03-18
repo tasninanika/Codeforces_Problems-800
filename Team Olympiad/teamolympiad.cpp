@@ -31,7 +31,7 @@ int main(){
     cout << teams << endl;
 
     for(int i = 0; i < teams; i++){
-
+        cout << programmers[i] << " " << mathematicians[i] << " " << sportsmen[i];
     }
 
     return 0;
