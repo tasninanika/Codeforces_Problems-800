@@ -15,6 +15,7 @@ int main(){
 
         if(t == 1){
             programmers[p_count] = i;
+            p_count++;
         }
     }
 
