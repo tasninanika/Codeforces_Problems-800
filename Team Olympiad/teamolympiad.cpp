@@ -27,5 +27,8 @@ int main(){
         }
     }
 
+    int teams = min(p_count, min(m_count, s_count));
+    cout << teams << endl;
+
     return 0;
 }
