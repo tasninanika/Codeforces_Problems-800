@@ -13,7 +13,9 @@ int main(){
         int t[n];
         cin >> t[i];
 
+        if(t == 1){
 
+        }
     }
 
     return 0;
