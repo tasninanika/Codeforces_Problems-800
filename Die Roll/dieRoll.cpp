@@ -18,6 +18,9 @@ int main(){
         c /= 2;
         d /= 2;
     }
+    else if(c == 3){
+
+    }
 
     return 0;
 }
