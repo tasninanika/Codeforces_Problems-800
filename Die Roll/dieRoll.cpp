@@ -10,6 +10,9 @@ int main(){
     c = 6 - c + 1;
 
     int d = 6;
+    if(c == 6){
+
+    }
 
     return 0;
 }
