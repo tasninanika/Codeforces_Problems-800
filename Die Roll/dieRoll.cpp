@@ -24,6 +24,7 @@ int main(){
     }
     else if(c == 2){
         c /= 2;
+        d /= 2;
     }
 
     return 0;
