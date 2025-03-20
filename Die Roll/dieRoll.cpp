@@ -7,6 +7,7 @@ int main(){
     cin >> y >> w;
 
     int c = max(y,w);
+    c = 6 - c + 1;
 
     return 0;
 }
