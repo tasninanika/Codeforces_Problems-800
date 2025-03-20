@@ -3,7 +3,7 @@ using namespace std;
 
 
 int main(){
-    int x, y;
+    int y, w;
 
     return 0;
 }
