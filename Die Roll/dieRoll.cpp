@@ -9,5 +9,7 @@ int main(){
     int c = max(y,w);
     c = 6 - c + 1;
 
+    int d = 6;
+
     return 0;
 }
