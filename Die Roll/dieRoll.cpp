@@ -22,6 +22,9 @@ int main(){
         c /= 3;
         d /= 3;
     }
+    else if(c == 2){
+
+    }
 
     return 0;
 }
