@@ -26,6 +26,7 @@ int main(){
         c /= 2;
         d /= 2;
     }
+    cout << c << "/" << d;
 
     return 0;
 }
