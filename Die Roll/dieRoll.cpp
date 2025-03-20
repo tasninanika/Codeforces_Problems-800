@@ -14,6 +14,8 @@ int main(){
         c /= 6;
         d /= 6;
     }
+    else if(c == 4){
+    }
 
     return 0;
 }
