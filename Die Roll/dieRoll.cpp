@@ -20,6 +20,7 @@ int main(){
     }
     else if(c == 3){
         c /= 3;
+        d /= 3;
     }
 
     return 0;
