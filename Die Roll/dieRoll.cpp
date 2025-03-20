@@ -11,7 +11,8 @@ int main(){
 
     int d = 6;
     if(c == 6){
-
+        c /= 6;
+        d /= 6;
     }
 
     return 0;
