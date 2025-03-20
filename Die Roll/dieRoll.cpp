@@ -23,7 +23,7 @@ int main(){
         d /= 3;
     }
     else if(c == 2){
-
+        c /= 2;
     }
 
     return 0;
