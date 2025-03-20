@@ -19,7 +19,7 @@ int main(){
         d /= 2;
     }
     else if(c == 3){
-
+        c /= 3;
     }
 
     return 0;
