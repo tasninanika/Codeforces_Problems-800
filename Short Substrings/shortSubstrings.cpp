@@ -14,7 +14,7 @@ int main(){
                 cout << s[i];
             }
             else if(i % 2 == 0){
-
+                cout << s[i];
             }
         }
     }
