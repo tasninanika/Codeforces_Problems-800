@@ -12,7 +12,8 @@ int main(){
         string b;
 
         for(int i = 0; i < a.size(); i++){
-            if(a[i] != a[i-1]){
+            b += a[i];
+            if(i % 2 == 1){
                 b += a[i];
             }
         }
