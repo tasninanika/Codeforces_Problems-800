@@ -9,8 +9,7 @@ int main(){
         string a;
         cin >> a;
 
-        string
-
+        string b;
         for(int i = 0; i < s.size(); i++){
             if(i % 2 != 0){
                 continue;
