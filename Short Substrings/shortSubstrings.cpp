@@ -6,10 +6,10 @@ int main(){
     cin >> t;
 
     while(t--){
-        string a;
-        cin >> a;
-
         string b;
+        cin >> b;
+
+        string a;
 
         for(int i = 0; i < a.size(); i++){
             b += a[i];
