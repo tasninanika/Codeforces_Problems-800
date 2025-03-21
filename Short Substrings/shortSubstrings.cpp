@@ -11,14 +11,11 @@ int main(){
 
         string b;
         b += a[0];
+
         for(int i = 0; i < a.size(); i++){
-            if(i == 0){
+            if(a[i] != a[i-1]){
                 b += a[i];
             }
-            if(i % 2 != 0){
-                continue;
-            }
-            b += a[i];
         }
 
         cout << b << endl;
