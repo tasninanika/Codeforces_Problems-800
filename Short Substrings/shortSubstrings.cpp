@@ -10,7 +10,7 @@ int main(){
         cin >> a;
 
         string b;
-        for(int i = 0; i < s.size(); i++){
+        for(int i = 0; i < a.size(); i++){
             if(i % 2 != 0){
                 continue;
             }
