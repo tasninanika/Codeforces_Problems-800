@@ -14,7 +14,7 @@ int main(){
             if(i % 2 != 0){
                 continue;
             }
-
+            b += a[i];
         }
 
         cout << b << endl;
