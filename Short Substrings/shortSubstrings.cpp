@@ -6,13 +6,16 @@ int main(){
     cin >> t;
 
     while(t--){
-        string s;
-        cin >> s;
+        string a;
+        cin >> a;
+
+        string
 
         for(int i = 0; i < s.size(); i++){
-            if(i % 3 == 0){
+            if(i % 2 != 0){
                 continue;
             }
+
         }
 
         cout << s << endl;
