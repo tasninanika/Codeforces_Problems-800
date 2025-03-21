@@ -10,13 +10,12 @@ int main(){
         cin >> s;
 
         for(int i = 0; i < s.size(); i++){
-            if(i == 0){
-                cout << s[i];
-            }
-            else if(i % 2 == 0){
-                cout << s[i];
+            if(i % 3 == 0){
+                continue;
             }
         }
+
+
     }
 
     return 0;
