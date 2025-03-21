@@ -13,6 +13,9 @@ int main(){
             if(i == 0){
                 cout << s[i];
             }
+            else if(i % 2 == 0){
+
+            }
         }
     }
 
