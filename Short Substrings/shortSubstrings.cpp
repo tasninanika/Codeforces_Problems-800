@@ -11,6 +11,9 @@ int main(){
 
         string b;
         for(int i = 0; i < a.size(); i++){
+            if(i == 0){
+
+            }
             if(i % 2 != 0){
                 continue;
             }
