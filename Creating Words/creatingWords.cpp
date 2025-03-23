@@ -11,6 +11,7 @@ int main(){
 
         for(int i = 0; i < a.size(); i++){
             for(int j = 0; j < b.size(); j++){
+                swap(a[0],b[0]);
 
 
     }
