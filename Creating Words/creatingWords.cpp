@@ -6,7 +6,7 @@ int main(){
     cin >> t;
 
     while(t--){
-        int a, b;
+        string a, b;
         cin >> a >> b;
 
         for(int i = 0; i < a.size(); i++){
