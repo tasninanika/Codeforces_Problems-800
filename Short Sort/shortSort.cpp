@@ -15,7 +15,7 @@ int main(){
         for(int i = 0; i < s.size(); i++){
             for(j = 0; j < s.size(); j++){
                 if(s[j] > s[j+1]){
-
+                    swap(s[j],s[j+1]);
                 }
             }
         }
