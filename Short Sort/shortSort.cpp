@@ -13,7 +13,9 @@ int main(){
             cout << "YES" << endl;
         }
         for(int i = 0; i < s.size(); i++){
-            for(j = 0; j < s.size(); j++)
+            for(j = 0; j < s.size(); j++){
+
+            }
         }
     }
 
