@@ -22,6 +22,9 @@ int main(){
                 }
             }
         }
+        else if(c == 1){
+
+        }
     }
 
     return 0;
