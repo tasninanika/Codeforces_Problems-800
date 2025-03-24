@@ -12,7 +12,9 @@ int main(){
         if(s == 'abc'){
             cout << "YES" << endl;
         }
-        for(int i = 0; i < s.size(); i++)
+        for(int i = 0; i < s.size(); i++){
+
+        }
     }
 
     return 0;
