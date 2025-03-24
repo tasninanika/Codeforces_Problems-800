@@ -22,8 +22,8 @@ int main(){
                 }
             }
         }
-        else if(c == 1){
-
+        if(c == 1){
+            cout << "YES" << endl;
         }
     }
 
