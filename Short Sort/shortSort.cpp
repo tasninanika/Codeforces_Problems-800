@@ -10,7 +10,7 @@ int main(){
         cin >> s;
 
 
-        if (s == "abc" || s == "acb" || s == "bac" || s == "cab") {
+        if (s == "abc" || s == "acb" || s == "bac" || s == "cba") {
             cout << "YES" << endl;
         }
         else {
