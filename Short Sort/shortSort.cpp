@@ -9,6 +9,8 @@ int main(){
         string s;
         cin >> s;
 
+        int c = 0;
+
         if(s == 'abc'){
             cout << "YES" << endl;
         }
