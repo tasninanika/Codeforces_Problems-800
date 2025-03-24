@@ -13,6 +13,10 @@ int main(){
         if (s == "abc" || s == "acb" || s == "bac" || s == "cab") {
             cout << "YES" << endl;
         }
+        else {
+            cout << "NO" << endl;
+        }
+
     }
 
     return 0;
