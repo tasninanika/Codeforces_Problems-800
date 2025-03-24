@@ -9,7 +9,9 @@ int main(){
         string s;
         cin >> s;
 
-        if(s = 'abc')
+        if(s = 'abc'){
+            cout << "YES" << endl;
+        }
     }
 
     return 0;
