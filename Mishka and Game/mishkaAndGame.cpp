@@ -20,6 +20,9 @@ int main(){
     if(mishika > chris){
         cout << "Mishika" << endl;
     }
+    else if(mishika < chris){
+
+    }
 
     return 0;
 }
