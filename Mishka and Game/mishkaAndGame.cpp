@@ -17,5 +17,9 @@ int main(){
         }
     }
 
+    if(mishika > chris){
+
+    }
+
     return 0;
 }
