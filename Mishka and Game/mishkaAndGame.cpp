@@ -17,10 +17,10 @@ int main(){
         }
     }
 
-    if(mishika > chris){
+    if(mishka > chris){
         cout << "Mishka" << endl;
     }
-    else if(mishika < chris){
+    else if(mishka < chris){
         cout << "Chris" << endl;
     }
     else{
