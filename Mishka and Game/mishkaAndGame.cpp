@@ -10,7 +10,7 @@ int main(){
         cin >> m >> c;
 
         if(m > c){
-
+            mishika++;
         }
     }
 
