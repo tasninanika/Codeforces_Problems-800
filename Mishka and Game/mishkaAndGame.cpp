@@ -13,7 +13,7 @@ int main(){
             mishika++;
         }
         else if(m < c){
-
+            chris++;
         }
     }
 
