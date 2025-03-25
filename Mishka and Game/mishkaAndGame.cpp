@@ -21,7 +21,7 @@ int main(){
         cout << "Mishika" << endl;
     }
     else if(mishika < chris){
-
+        cout << "Chris" << endl;
     }
 
     return 0;
