@@ -12,6 +12,9 @@ int main(){
         if(m > c){
             mishika++;
         }
+        else if(m < c){
+
+        }
     }
 
     return 0;
