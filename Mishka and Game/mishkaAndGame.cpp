@@ -18,7 +18,7 @@ int main(){
     }
 
     if(mishika > chris){
-
+        cout << "Mishika" << endl;
     }
 
     return 0;
