@@ -23,6 +23,9 @@ int main(){
     else if(mishika < chris){
         cout << "Chris" << endl;
     }
+    else{
+        cout << "Friendship is magic!^^" << endl;
+    }
 
     return 0;
 }
