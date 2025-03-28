@@ -16,7 +16,8 @@ int main(){
 
         cout << "YES" << endl;
 
-        vector<int> arr;
+        vector<int> arr1;
+        vector<int> arr2;
 
         for(int i = 0; i < n / 2; i++){
             arr.push_back(i * 2);
@@ -25,6 +26,8 @@ int main(){
         for(int i = 0; i < n/ 2; i++){
             arr.push_back(i * 2 - 1);
         }
+
+        for(int i = 0; i )
     }
 
     return 0;
