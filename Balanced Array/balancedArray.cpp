@@ -38,6 +38,8 @@ int main(){
         int last_odd = sum1 - sum2;
         arr2.push_back(last_odd);
 
+        for(int i = 0; i < arr1.size(); i++)
+
     }
 
     return 0;
