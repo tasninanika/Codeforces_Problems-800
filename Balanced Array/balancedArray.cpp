@@ -13,6 +13,8 @@ int main(){
             cout << "NO" << endl;
             return;
         }
+
+        cout << "YES" << endl;
     }
 
     return 0;
