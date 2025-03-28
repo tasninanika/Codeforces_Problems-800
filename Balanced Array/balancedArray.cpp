@@ -15,6 +15,8 @@ int main(){
         }
 
         cout << "YES" << endl;
+
+        vector<int> arr;
     }
 
     return 0;
