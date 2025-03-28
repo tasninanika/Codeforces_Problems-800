@@ -11,7 +11,7 @@ int main(){
 
         if((n / 2) % 2 != 0){
             cout << "NO" << endl;
-            return;
+            continue;
         }
 
         cout << "YES" << endl;
