@@ -28,10 +28,10 @@ int main(){
         }
 
         int sum1 = 0, sum2 = 0;
-        for(int i = 0; i < n / 2; i++){
+        for(int i = 0; i < arr1.size(); i++){
             sum1 += arr1[i];
         }
-        for(int i = 0; i < n / 2; i++){
+        for(int i = 0; i < arr2.size(); i++){
             sum2 += arr2[i];
         }
 
@@ -45,6 +45,8 @@ int main(){
         for(int i = 0; i < arr2.size(); i++){
             cout << arr2[i] << " ";
         }
+
+        cout << endl;
 
     }
 
