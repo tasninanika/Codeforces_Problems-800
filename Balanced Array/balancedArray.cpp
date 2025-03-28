@@ -24,7 +24,7 @@ int main(){
         }
 
         for(int i = 0; i < n / 2; i++){
-            arr2.push_back(i * 2 - 1);
+            arr2.push_back(i * 2 + 1);
         }
 
         int sum1 = 0, sum2 = 0;
