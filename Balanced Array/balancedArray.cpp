@@ -19,7 +19,7 @@ int main(){
         vector<int> arr1;
         vector<int> arr2;
 
-        for(int i = 0; i < n / 2; i++){
+        for(int i = 1; i <= n / 2; i++){
             arr1.push_back(i * 2);
         }
 
