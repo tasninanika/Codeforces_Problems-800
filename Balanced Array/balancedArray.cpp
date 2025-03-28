@@ -42,6 +42,8 @@ int main(){
             cout << arr1[i] << " ";
         }
 
+        for(int i = 0; i < arr2.size(); i++)
+
     }
 
     return 0;
