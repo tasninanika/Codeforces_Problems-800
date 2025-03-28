@@ -42,7 +42,9 @@ int main(){
             cout << arr1[i] << " ";
         }
 
-        for(int i = 0; i < arr2.size(); i++)
+        for(int i = 0; i < arr2.size(); i++){
+            cout << arr2[i] << " ";
+        }
 
     }
 
