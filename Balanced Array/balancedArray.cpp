@@ -23,7 +23,7 @@ int main(){
         }
 
         for(int i = 0; i < n/ 2; i++){
-
+            arr.push_back(i * 2 - 1);
         }
     }
 
