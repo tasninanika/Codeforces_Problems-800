@@ -31,6 +31,9 @@ int main(){
         for(int i = 0; i < n / 2; i++){
             sum1 += arr1[i];
         }
+        for(int i = 0; i < n / 2; i++){
+
+        }
     }
 
     return 0;
