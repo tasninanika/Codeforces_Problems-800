@@ -34,6 +34,10 @@ int main(){
         for(int i = 0; i < n / 2; i++){
             sum2 += arr2[i];
         }
+
+        int last_odd = sum1 - sum2;
+        arr2.push_back(last_odd);
+
     }
 
     return 0;
