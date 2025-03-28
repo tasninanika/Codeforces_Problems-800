@@ -32,7 +32,7 @@ int main(){
             sum1 += arr1[i];
         }
         for(int i = 0; i < n / 2; i++){
-
+            sum2 += arr2[i];
         }
     }
 
