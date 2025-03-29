@@ -12,7 +12,7 @@ int main(){
         if(a < b && b < c){
             cout << "STAIR" << endl;
         }
-        else if(a < b > c){
+        else if(a < b && b > c){
             cout << "PEAK" << endl;
         }
         else{
