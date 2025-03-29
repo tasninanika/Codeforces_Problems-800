@@ -15,6 +15,9 @@ int main(){
         else if(a < b > c){
             cout << "PEAK" << endl;
         }
+        else{
+
+        }
 
     }
 
