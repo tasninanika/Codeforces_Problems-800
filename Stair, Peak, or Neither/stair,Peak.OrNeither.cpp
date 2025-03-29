@@ -16,7 +16,7 @@ int main(){
             cout << "PEAK" << endl;
         }
         else{
-
+            cout << "NONE" << endl;
         }
 
     }
