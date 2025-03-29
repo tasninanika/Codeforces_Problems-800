@@ -12,6 +12,9 @@ int main(){
         if(a < b < c){
             cout << "STAIR" << endl;
         }
+        else if(a < b > c){
+
+        }
 
     }
 
