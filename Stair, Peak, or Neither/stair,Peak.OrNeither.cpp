@@ -10,7 +10,7 @@ int main(){
         cin >> a >> b >> c;
 
         if(a < b < c){
-
+            cout << "STAIR" << endl;
         }
 
     }
