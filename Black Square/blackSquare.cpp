@@ -11,7 +11,7 @@ int main(){
     int total = 0;
 
     for(int i = 0; i < s.size(); i++){
-
+        if(s[i] == '1')
     }
 
     return 0;
