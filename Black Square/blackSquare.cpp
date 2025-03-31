@@ -20,7 +20,9 @@ int main(){
         else if(s[i] == '3'){
             total += a3;
         }
-        else if(s[i] == '4')
+        else if(s[i] == '4'){
+
+        }
     }
 
     return 0;
