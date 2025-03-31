@@ -17,6 +17,7 @@ int main(){
         else if(s[i] == '2'){
             total += a2;
         }
+        else if(s[i] == '3')
     }
 
     return 0;
