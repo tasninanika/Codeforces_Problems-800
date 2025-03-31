@@ -8,5 +8,7 @@ int main(){
     string s;
     cin >> s;
 
+    int total = 0;
+
     return 0;
 }
