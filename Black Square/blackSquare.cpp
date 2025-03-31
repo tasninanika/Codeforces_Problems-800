@@ -10,7 +10,9 @@ int main(){
 
     int total = 0;
 
-    for(int i = 0; i < s.size(); i++)
+    for(int i = 0; i < s.size(); i++){
+
+    }
 
     return 0;
 }
