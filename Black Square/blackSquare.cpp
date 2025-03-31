@@ -21,7 +21,7 @@ int main(){
             total += a3;
         }
         else if(s[i] == '4'){
-
+            total += a[4];
         }
     }
 
