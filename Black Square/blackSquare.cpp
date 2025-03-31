@@ -14,6 +14,7 @@ int main(){
         if(s[i] == '1'){
             total += a1;
         }
+        else if(s[i] == '2')
     }
 
     return 0;
