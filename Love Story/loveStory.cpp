@@ -9,7 +9,7 @@ int main(){
         string s;
         cin >> s;
 
-        string s1 = 'codeforces';
+        string s1 = "codeforces";
         int c = 0;
 
         for(int i = 0; i < 10; i++){
