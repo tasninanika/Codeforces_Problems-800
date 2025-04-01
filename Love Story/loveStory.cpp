@@ -9,7 +9,9 @@ int main(){
         string s;
         cin >> s;
 
-        s1 = "codeforces"
+        s1 = "codeforces";
+
+        for(int i = 0; i < 10; i++)
     }
 
     return 0;
