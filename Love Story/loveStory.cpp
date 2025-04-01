@@ -8,6 +8,8 @@ int main(){
     while(t--){
         string s;
         cin >> s;
+
+        s1 = "codeforces"
     }
 
     return 0;
