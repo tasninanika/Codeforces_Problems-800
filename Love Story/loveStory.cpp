@@ -12,7 +12,7 @@ int main(){
         int s1 = 'codeforces';
         int c = 0;
 
-        for(int i = 0; i < 10; i++){
+        for(int i = 0; i < s.size(); i++){
             if(s[i] != s1[i]){
                 c++;
             }
