@@ -15,6 +15,7 @@ int main(){
         if(d == next){
             if(next == m){
                 cout << "YES" << endl;
+                return 0;
             }
             else{
                 cout << "NO" << endl;
