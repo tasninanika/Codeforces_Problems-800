@@ -11,6 +11,9 @@ int main(){
                 break;
             }
         }
+        if(d == next){
+
+        }
     }
 
     return 0;
