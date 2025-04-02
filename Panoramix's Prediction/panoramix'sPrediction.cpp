@@ -13,7 +13,7 @@ int main(){
         }
         if(d == next){
             if(next == m){
-
+                cout << "YES" << endl;
             }
         }
     }
