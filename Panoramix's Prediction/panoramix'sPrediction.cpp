@@ -7,7 +7,9 @@ int main(){
 
     for(int next = n + 1; next <= m; next++){
         for(int d = 2; d < next; d++){
+            if(next % d == 0){
 
+            }
         }
     }
 
