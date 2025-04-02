@@ -12,7 +12,9 @@ int main(){
             }
         }
         if(d == next){
+            if(next == m){
 
+            }
         }
     }
 
