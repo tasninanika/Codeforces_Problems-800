@@ -8,10 +8,7 @@ int main(){
     while(t--){
         int n;
         cin >> n;
-        if (n % 3 == 0) {
-            cout << "First" << endl;
-        }
-        else if (n % 3 == 1) {
+        if ((n-1) % 3 == 0 || (n+1) % 3 == 1) {
             cout << "First" << endl;
         }
         else {
