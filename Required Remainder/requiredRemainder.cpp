@@ -6,7 +6,7 @@ int main(){
     cin >> t;
 
     while(t--){
-        int x, y, n;
+        long long x, y, n;
         cin >> x >> y >> n;
 
         int k = x * n + y;
