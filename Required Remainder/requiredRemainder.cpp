@@ -9,7 +9,7 @@ int main(){
         long long x, y, n;
         cin >> x >> y >> n;
 
-        long long k = x * n + y;
+        long long k = (n - y) / x * x + y;
 
         cout << k << endl;
     }
