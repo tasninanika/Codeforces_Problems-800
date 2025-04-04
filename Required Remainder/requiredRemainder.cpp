@@ -10,6 +10,8 @@ int main(){
         cin >> x >> y >> n;
 
         int k = x * n + y;
+
+        cout << k << endl;
     }
 
     return 0;
