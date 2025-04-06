@@ -22,6 +22,9 @@ int main() {
                 if (i % 2 == 0){
                     even++;
                 }
+                else{
+                    odd++;
+                }
             }
 
         }
