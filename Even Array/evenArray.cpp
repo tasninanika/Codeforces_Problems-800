@@ -30,7 +30,7 @@ int main() {
         }
 
         if(odd == even){
-
+            cout << odd << endl;
         }
 
 
