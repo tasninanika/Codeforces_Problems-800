@@ -29,6 +29,10 @@ int main() {
 
         }
 
+        if(odd == even){
+
+        }
+
 
 
     }
