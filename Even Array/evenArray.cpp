@@ -15,6 +15,7 @@ int main() {
         }
 
         int odd = 0;
+        int even = 0;
 
 
     }
