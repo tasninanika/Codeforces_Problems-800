@@ -32,6 +32,9 @@ int main() {
         if(odd == even){
             cout << odd << endl;
         }
+        else{
+            cout << -1 << endl;
+        }
 
 
 
