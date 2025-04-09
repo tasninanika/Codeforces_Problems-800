@@ -11,6 +11,7 @@ int main(){
 
         int last_digit = x % 10;
         int l = 0;
+        int y = x;
     }
 
     return 0;
