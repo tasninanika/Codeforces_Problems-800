@@ -10,6 +10,7 @@ int main(){
         cin >> x;
 
         int last_digit = x % 10;
+        int l = 0;
     }
 
     return 0;
