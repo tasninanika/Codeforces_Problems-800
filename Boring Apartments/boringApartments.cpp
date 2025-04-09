@@ -15,6 +15,7 @@ int main(){
 
         while(y > 0){
             l++;
+            y /= 10;
         }
     }
 
