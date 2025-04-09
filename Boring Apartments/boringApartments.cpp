@@ -14,7 +14,7 @@ int main(){
         int y = x;
 
         while(y > 0){
-
+            l++;
         }
     }
 
