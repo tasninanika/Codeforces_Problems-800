@@ -17,6 +17,8 @@ int main(){
             l++;
             y /= 10;
         }
+
+        int result = (last_digit - 1) * 10 + (l * (l + 1)) / 2;
     }
 
     return 0;
