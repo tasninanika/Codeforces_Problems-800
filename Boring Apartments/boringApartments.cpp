@@ -19,7 +19,10 @@ int main(){
         }
 
         int result = (last_digit - 1) * 10 + (l * (l + 1)) / 2;
+
+        cout << result << endl;
     }
+
 
     return 0;
 }
