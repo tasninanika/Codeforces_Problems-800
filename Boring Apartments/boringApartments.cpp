@@ -8,6 +8,8 @@ int main(){
     while(t--){
         int x;
         cin >> x;
+
+        int last_digit = x % 10;
     }
 
     return 0;
