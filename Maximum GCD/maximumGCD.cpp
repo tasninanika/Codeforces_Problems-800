@@ -9,7 +9,7 @@ int main(){
         int n;
         cin >> n;
 
-        int gcd = (n//2);
+        int gcd = n//2;
 
         cout << gcd << endl;
     }
