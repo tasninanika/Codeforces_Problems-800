@@ -8,6 +8,8 @@ int main(){
     while(t--){
         int n;
         cin >> n;
+
+        int gcd = (n//2);
     }
 
     return 0;
