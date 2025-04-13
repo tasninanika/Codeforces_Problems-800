@@ -10,6 +10,8 @@ int main(){
         cin >> n;
 
         int gcd = (n//2);
+
+        cout << gcd << endl;
     }
 
     return 0;
