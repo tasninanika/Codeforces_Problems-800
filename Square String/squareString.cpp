@@ -30,6 +30,9 @@ int main(){
             if(arr1[i] != arr2[i]){
                 cout << "NO" << endl;
             }
+            else{
+                cout << "YES" << endl;
+            }
         }
 
     }
