@@ -28,7 +28,7 @@ int main(){
 
         for(int i = 0; i < arr1.size(); i++){
             if(arr1[i] != arr2[i]){
-
+                cout << "NO" << endl;
             }
         }
 
