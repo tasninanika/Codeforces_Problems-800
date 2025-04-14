@@ -26,6 +26,10 @@ int main(){
             arr2.push_back(s[i]);
         }
 
+        for(int i = 0; i < arr1.size(); i++){
+
+        }
+
     }
 
     return 0;
