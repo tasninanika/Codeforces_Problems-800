@@ -18,12 +18,12 @@ int main(){
 
         vector<char> arr1, arr2;
 
-        for(int left = 0; left < right/2; left++){
-            int arr1.push_back(left[i]);
+        for(int i = 0; i < l/2; i++){
+            arr1.push_back(s[i]);
         }
 
-        for(int r = n/2; r < right/2; r--){
-            int arr2.push_back(r[i]);
+        for(int i = l/2; i < l/2; i--){
+            arr2.push_back(s[i]);
         }
 
     }
