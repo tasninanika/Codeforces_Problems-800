@@ -26,14 +26,15 @@ int main(){
             arr2.push_back(s[i]);
         }
 
-        for(int i = 0; i < arr1.size(); i++){
+        int i;
+        for(i = 0; i < arr1.size(); i++){
             if(arr1[i] != arr2[i]){
                 cout << "NO" << endl;
                 break;
             }
         }
 
-        if(int i == arr1.size()){
+        if(i == arr1.size()){
             cout << "YES" << endl;
         }
     }
