@@ -12,7 +12,7 @@ int main(){
         int right = s.size();
 
         for(int left = 0; left < right/2; left++){
-
+            int arr1.push_back(left[i]);
         }
     }
 
