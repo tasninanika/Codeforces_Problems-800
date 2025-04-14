@@ -13,7 +13,7 @@ int main(){
 
         if(l % 2 != 0){
             cout << "NO" << endl;
-
+            continue;
         }
 
         for(int left = 0; left < right/2; left++){
