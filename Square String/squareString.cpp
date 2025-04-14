@@ -22,7 +22,7 @@ int main(){
             arr1.push_back(s[i]);
         }
 
-        for(int i = l/2; i < l/2; i--){
+        for(int i = l/2; i < l; i--){
             arr2.push_back(s[i]);
         }
 
