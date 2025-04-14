@@ -9,8 +9,11 @@ int main(){
         string s;
         cin >> s;
 
-        int left = 0;
-        int right = s.size() - 1;
+        int right = s.size();
+
+        for(int left = 0; left < right/2; left++){
+
+        }
     }
 
     return 0;
