@@ -14,10 +14,7 @@ int main(){
 
         for(int i = 0; i < n; i++){
             if(n == 5 && s[i] == 'T'){
-                cout << "YES" << endl;
-            }
-            else{
-                cout << "NO" << endl;
+                c++;
             }
         }
     }
