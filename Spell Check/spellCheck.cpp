@@ -13,7 +13,9 @@ int main(){
         cin >> s;
 
         for(int i = 0; i < n; i++){
-            i
+            if(n == 5 && s[i] == 'T'){
+
+            }
         }
     }
 
