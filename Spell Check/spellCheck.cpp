@@ -20,7 +20,7 @@ int main(){
         }
 
         if(c != 1){
-
+            cout << "NO" << endl;
         }
     }
 
