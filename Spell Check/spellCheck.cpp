@@ -13,6 +13,7 @@ int main(){
         cin >> s;
 
         if(n != 5){
+            cout << "NO" << endl;
             continue;
         }
 
