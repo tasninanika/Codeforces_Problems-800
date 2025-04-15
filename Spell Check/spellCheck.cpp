@@ -12,14 +12,12 @@ int main(){
         string s;
         cin >> s;
 
-        int c = 0;
-        for(int i = 0; i < n; i++){
-            if(n == 5 && s[i] == 'T'){
-                c++;
-            }
+        if(n != 5){
+            continue;
         }
 
-        if(c != 1){
+
+        if(){
             cout << "NO" << endl;
         }
         else{
