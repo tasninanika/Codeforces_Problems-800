@@ -16,6 +16,9 @@ int main(){
             if(n == 5 && s[i] == 'T'){
                 cout << "YES" << endl;
             }
+            else{
+                cout << "NO" << endl;
+            }
         }
     }
 
