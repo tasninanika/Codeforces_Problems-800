@@ -19,11 +19,11 @@ int main(){
 
         sort(s.begin(), s.end());
 
-        if(){
-            cout << "NO" << endl;
+        if(s == "Timru"){
+            cout << "YES" << endl;
         }
         else{
-            cout << "YES" << endl;
+            cout << "NO" << endl;
         }
     }
 
