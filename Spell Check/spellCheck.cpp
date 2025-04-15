@@ -17,6 +17,7 @@ int main(){
             continue;
         }
 
+        sort(s.begin(), s.end());
 
         if(){
             cout << "NO" << endl;
