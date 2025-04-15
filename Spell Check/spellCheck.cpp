@@ -18,6 +18,10 @@ int main(){
                 c++;
             }
         }
+
+        if(c != 1){
+
+        }
     }
 
     return 0;
