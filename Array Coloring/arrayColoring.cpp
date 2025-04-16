@@ -15,7 +15,7 @@ int main(){
         for(int i = 0; i < n; i++){
             cin >> a[i];
 
-            if(a % 2 == 0){
+            if(a[i] % 2 == 0){
                 even++;
             }
             else{
