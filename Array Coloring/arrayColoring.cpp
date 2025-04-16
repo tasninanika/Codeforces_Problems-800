@@ -21,6 +21,10 @@ int main(){
                 odd++;
             }
         }
+
+        if(even > 0 && odd >> 0){
+
+        }
     }
 
     return 0;
