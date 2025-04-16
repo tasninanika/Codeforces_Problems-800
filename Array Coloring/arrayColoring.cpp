@@ -25,6 +25,9 @@ int main(){
         if(even > 0 && odd >> 0){
             cout << "YES" << endl;
         }
+        else{
+            cout << "NO" << endl;
+        }
     }
 
     return 0;
