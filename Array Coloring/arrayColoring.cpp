@@ -23,7 +23,7 @@ int main(){
         }
 
         if(even > 0 && odd >> 0){
-
+            cout << "YES" << endl;
         }
     }
 
