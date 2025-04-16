@@ -15,19 +15,12 @@ int main(){
             sum += a[i];
         }
 
-            if(a % 2 == 0){
-                even++;
+            if(sum % 2 == 0){
+                cout << "YES" << endl;;
             }
             else{
-                odd++;
+                cout << "NO" << endl;
             }
-        }
-
-        if(even > 0 && odd > 0){
-            cout << "YES" << endl;
-        }
-        else{
-            cout << "NO" << endl;
         }
     }
 
