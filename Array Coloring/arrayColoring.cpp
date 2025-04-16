@@ -17,6 +17,9 @@ int main(){
             if(a % 2 == 0){
                 even++;
             }
+            else{
+                odd++;
+            }
         }
     }
 
