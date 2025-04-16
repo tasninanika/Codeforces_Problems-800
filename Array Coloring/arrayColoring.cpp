@@ -15,12 +15,11 @@ int main(){
             sum += a[i];
         }
 
-            if(sum % 2 == 0){
-                cout << "YES" << endl;;
-            }
-            else{
-                cout << "NO" << endl;
-            }
+        if(sum % 2 == 0){
+            cout << "YES" << endl;;
+        }
+        else{
+            cout << "NO" << endl;
         }
     }
 
