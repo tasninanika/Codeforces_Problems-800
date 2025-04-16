@@ -10,6 +10,10 @@ int main(){
         cin >> n;
 
         int even = 0, odd = 0;
+
+        for(int i = 0; i < n; i++){
+
+        }
     }
 
     return 0;
