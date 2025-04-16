@@ -8,6 +8,8 @@ int main(){
     while(t--){
         int n;
         cin >> n;
+
+        int even = 0, odd = 0;
     }
 
     return 0;
