@@ -20,6 +20,9 @@ int main(){
                 b += 2;
                 problems_solved.insert(s[i]);
             }
+            else{
+                b += 1;
+            }
         }
 
     }
