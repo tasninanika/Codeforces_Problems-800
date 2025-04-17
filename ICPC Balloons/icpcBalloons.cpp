@@ -12,16 +12,8 @@ int main(){
         string s;
         cin >> s;
 
-        int c = 0, i = 0, j = n;
-        while(i < j){
-           if(s[i] == s[j]){
-                c += 3;
-           }
-           else if(s[i] != s[j]){
-
-           }
-
-        }
+        set<char> problems_solved;
+        int b = 0;
 
     }
 
