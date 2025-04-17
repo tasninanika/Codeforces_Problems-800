@@ -15,7 +15,7 @@ int main(){
         int c = 0, i = 0, j = n;
         while(i < j){
            if(s[i] == s[j]){
-                c += 2;
+                c += 3;
            }
 
         }
