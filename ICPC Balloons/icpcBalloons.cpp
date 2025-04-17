@@ -17,6 +17,9 @@ int main(){
            if(s[i] == s[j]){
                 c += 3;
            }
+           else if(s[i] != s[j]){
+
+           }
 
         }
 
