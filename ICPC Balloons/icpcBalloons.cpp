@@ -13,7 +13,10 @@ int main(){
         cin >> s;
 
         int c = 0, i = 0, j = n;
+        while(i < j){
 
+
+        }
 
     }
 
