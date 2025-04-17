@@ -21,7 +21,7 @@ int main(){
                 problems_solved.insert(s[i]);
             }
             else{
-                b += 1;
+                b++;
             }
         }
 
