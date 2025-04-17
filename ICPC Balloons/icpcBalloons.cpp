@@ -15,6 +15,10 @@ int main(){
         set<char> problems_solved;
         int b = 0;
 
+        for(int i = 0; i < n; i++){
+
+        }
+
     }
 
     return 0;
