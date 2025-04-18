@@ -16,7 +16,7 @@ int main(){
 
         int max_num = a[0], min_num = a[0];
 
-        for(int i = 0; i < n; i++){
+        for(int i = 1; i < n; i++){
             max_num = max(max_num, a[i]);
             min_num = min(min_num, a[i]);
         }
