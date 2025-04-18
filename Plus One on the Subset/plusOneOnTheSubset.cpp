@@ -12,6 +12,8 @@ int main(){
         int a[n];
         for(int i = 0; i < n; i++){
             cin >> a[i];
+
+            int max_num = max(a[i]);
         }
     }
 
