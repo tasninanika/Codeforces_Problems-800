@@ -9,10 +9,12 @@ int main(){
         int n;
         cin >> n;
 
-        int a[n], max_num = a[0], min_num = a[0];
+        int a[n];
         for(int i = 0; i < n; i++){
             cin >> a[i];
         }
+
+
 
         for(int i = 0; i < n; i++){
             max_num = max(max_num, a[i]);
