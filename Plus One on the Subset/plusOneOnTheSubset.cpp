@@ -14,7 +14,7 @@ int main(){
             cin >> a[i];
         }
 
-
+        int max_num = a[0], min_num = a[0];
 
         for(int i = 0; i < n; i++){
             max_num = max(max_num, a[i]);
