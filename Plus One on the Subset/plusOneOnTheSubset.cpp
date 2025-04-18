@@ -19,6 +19,8 @@ int main(){
 
         int minimum_num_of_operations = max_num - min_num;
 
+        cout << minimum_num_of_operations << endl;
+
     }
 
     return 0;
