@@ -14,7 +14,9 @@ int main(){
             cin >> a[i];
         }
 
+        for(int i = 0; i < n; i++){
 
+        }
 
         int minimum_num_of_operations = max_num - min_num;
 
