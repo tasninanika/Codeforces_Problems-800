@@ -15,9 +15,10 @@ int main(){
 
             int max_num = max(a[i]);
             int min_num = min(a[i]);
-
-            int minimum_num_of_operations = max_num - min_num;
         }
+
+        int minimum_num_of_operations = max_num - min_num;
+
     }
 
     return 0;
