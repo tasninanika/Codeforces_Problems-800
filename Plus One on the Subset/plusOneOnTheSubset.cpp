@@ -9,13 +9,12 @@ int main(){
         int n;
         cin >> n;
 
-        int a[n];
+        int a[n], max_num = a[0], min_num = a[0];
         for(int i = 0; i < n; i++){
             cin >> a[i];
         }
 
-        int max_num = max(a, a + n);
-        int min_num = min(a, a + n);
+
 
         int minimum_num_of_operations = max_num - min_num;
 
