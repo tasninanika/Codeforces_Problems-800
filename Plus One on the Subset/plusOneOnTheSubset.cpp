@@ -15,7 +15,8 @@ int main(){
         }
 
         for(int i = 0; i < n; i++){
-
+            max_num = max(max_num, a[i]);
+            min_num = min(min_num, a[i]);
         }
 
         int minimum_num_of_operations = max_num - min_num;
