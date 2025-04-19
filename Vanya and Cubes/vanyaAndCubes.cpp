@@ -5,14 +5,17 @@ int main(){
     int n;
     cin >> n;
 
-    int result = 0, c = 0, i = 1;
-    while(result <= 25){
-        result += i;
+    int result = 0, c = 0;
+    for(int i = 0; ; i++){
+        int cubes = i * (i + 1) / 2;
+        if(c += cubes > n){
+            break;
+        }
         c++;
-        i++;
+        result++;
     }
 
-    cout << c << endl;
+    cout << result << endl;
 
     return 0;
 }
