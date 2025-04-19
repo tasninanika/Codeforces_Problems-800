@@ -6,12 +6,12 @@ int main(){
     cin >> n;
 
     int result = 0, c = 0;
-    for(int i = 0; ; i++){
+    for(int i = 1; ; i++){
         int cubes = i * (i + 1) / 2;
-        if(c += cubes > n){
+        if(c + cubes > n){
             break;
         }
-        c++;
+        c += cubes;
         result++;
     }
 
