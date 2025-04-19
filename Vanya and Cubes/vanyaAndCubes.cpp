@@ -8,7 +8,11 @@ int main(){
     int result = 0, c = 0, i = 1;
     while(result <= 25){
         result += i;
+        c++;
+        i++;
     }
+
+    cout << c << endl;
 
     return 0;
 }
