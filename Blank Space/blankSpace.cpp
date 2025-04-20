@@ -19,7 +19,7 @@ int main(){
             if(a[i-1] == 0 && a[i] == a[i-1]){
                 c++;
                 if(c > max_c){
-
+                    max_c = c;
                 }
             }
             else{
