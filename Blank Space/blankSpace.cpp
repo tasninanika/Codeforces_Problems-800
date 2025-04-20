@@ -27,7 +27,7 @@ int main(){
             }
         }
 
-        cout << c << endl;
+        cout << max_c << endl;
     }
 
     return 0;
