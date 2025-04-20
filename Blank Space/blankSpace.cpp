@@ -23,6 +23,8 @@ int main(){
                 c = 0;
             }
         }
+
+        cout << c << endl;
     }
 
     return 0;
