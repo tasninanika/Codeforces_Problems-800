@@ -13,7 +13,7 @@ int main(){
         int total_mini = total_hour_in_mini + m;
 
         int remaining_time = 1440 - total_mini;
-
+        cout << remaining_time << endl;
     }
 
     return 0;
