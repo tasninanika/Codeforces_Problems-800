@@ -8,6 +8,8 @@ int main(){
     while(t--){
         int h, m;
         cin >> h >> m;
+
+        int total_hour = h * 60;
     }
 
     return 0;
