@@ -9,10 +9,10 @@ int main(){
         int h, m;
         cin >> h >> m;
 
-        int total_hour_in_mini = h * 60;
-        int total_mini = total_hour_in_mini + m;
+        int total_hour_in_min = h * 60;
+        int total_min = total_hour_in_min + m;
 
-        int remaining_time = 1440 - total_mini;
+        int remaining_time = 1440 - total_min;
         cout << remaining_time << endl;
     }
 
