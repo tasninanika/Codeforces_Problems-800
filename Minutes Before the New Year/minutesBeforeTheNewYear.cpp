@@ -10,6 +10,7 @@ int main(){
         cin >> h >> m;
 
         int total_hour = h * 60;
+        int total_mini = total_hour + m;
     }
 
     return 0;
