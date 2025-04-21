@@ -9,8 +9,11 @@ int main(){
         int h, m;
         cin >> h >> m;
 
-        int total_hour = h * 60;
-        int total_mini = total_hour + m;
+        int total_hour_in_mini = h * 60;
+        int total_mini = total_hour_in_mini + m;
+
+        int remaining_time = 1440 - total_mini;
+
     }
 
     return 0;
