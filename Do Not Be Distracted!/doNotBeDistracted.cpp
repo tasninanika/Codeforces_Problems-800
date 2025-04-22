@@ -22,6 +22,10 @@ int main(){
                 c++;
             }
         }
+        if(c != 0){
+            cout << "YES" << endl;
+        }
+
     }
 
     return 0;
