@@ -25,6 +25,9 @@ int main(){
         if(c != 0){
             cout << "YES" << endl;
         }
+        else{
+            cout << "NO" << endl;
+        }
 
     }
 
