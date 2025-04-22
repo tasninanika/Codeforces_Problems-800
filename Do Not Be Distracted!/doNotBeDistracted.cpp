@@ -1,4 +1,4 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 
 int main(){
@@ -12,23 +12,25 @@ int main(){
         string s;
         cin >> s;
 
-        if(n <= 1){
-            cout << "YES" << endl;
+        unordered_set<char> completed;
+        bool suspicious = false;
+
+        for(int i = 0; i < n; ++i){
+            if(i > 0 && s[i] != s[i-1]){
+                if(completed.count(s[i])){
+                    suspicious = true;
+                    break;
+                }
+            }
+            completed.insert(s[i]);
         }
 
-        int i = 0, j = n, c = 0;
-        while(i < j){
-            if(s[i] == s[j]){
-                c++;
-            }
-        }
-        if(c != 0){
-            cout << "YES" << endl;
-        }
-        else{
+        if(suspicious){
             cout << "NO" << endl;
         }
-
+        else{
+            cout << "YES" << endl;
+        }
     }
 
     return 0;
