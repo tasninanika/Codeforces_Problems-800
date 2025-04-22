@@ -12,6 +12,10 @@ int main(){
         if(n <= 1){
             cout << "YES" << endl;
         }
+
+        for(int i = 0; i < n; i++){
+
+        }
     }
 
     return 0;
