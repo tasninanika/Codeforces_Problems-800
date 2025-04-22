@@ -16,9 +16,11 @@ int main(){
             cout << "YES" << endl;
         }
 
-        int i = 0, j = n;
+        int i = 0, j = n, c = 0;
         while(i < j)){
-            if(s[i] == s[j])
+            if(s[i] == s[j]){
+                c++;
+            }
         }
     }
 
