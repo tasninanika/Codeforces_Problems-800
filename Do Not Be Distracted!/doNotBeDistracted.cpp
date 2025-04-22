@@ -10,6 +10,7 @@ int main(){
         cin >> n;
 
         string s;
+        cin >> s;
 
         if(n <= 1){
             cout << "YES" << endl;
