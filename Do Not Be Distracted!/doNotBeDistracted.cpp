@@ -16,9 +16,9 @@ int main(){
             cout << "YES" << endl;
         }
 
-        int i = 0;
-        for(int j = 0; j < n; j++){
-            if()
+        int i = 0, j = n;
+        while(i < j)){
+            if(s[i] == s[j])
         }
     }
 
