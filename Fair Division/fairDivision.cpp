@@ -22,10 +22,10 @@ int main(){
 
         sum = one + (2 * two);
 
-        if(n % 2 == 0 && sum % 2 == 0){
-            cout << "YES" << endl;
+        if(one == 0 && two % 2 != 0){
+            cout << "NO" << endl;
         }
-        else{
+        else if(sum % 2 != 0){
             cout << "NO" << endl;
         }
     }
