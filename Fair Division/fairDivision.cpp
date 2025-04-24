@@ -14,6 +14,10 @@ int main(){
             cin >> a[i];
             sum += a[i];
         }
+
+        if(sum % 2 == 0){
+
+        }
     }
 
     return 0;
