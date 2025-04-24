@@ -15,7 +15,7 @@ int main(){
             sum += a[i];
         }
 
-        if(sum % 2 == 0){
+        if(n % 2 == 0 && sum % 2 == 0){
             cout << "YES" << endl;
         }
         else{
