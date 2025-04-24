@@ -9,10 +9,13 @@ int main(){
         int n;
         cin >> n;
 
-        int a[n], sum = 0;
+        int a[n], one = 0, two = 0, sum = 0;
         for(int i = 0; i < n; i++){
             cin >> a[i];
-            if(a == 1){
+            if(a[i] == 1){
+                one++;
+            }
+            else if(a[i] == 2){
 
             }
         }
