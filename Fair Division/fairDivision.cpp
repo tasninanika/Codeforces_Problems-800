@@ -28,6 +28,9 @@ int main(){
         else if(sum % 2 != 0){
             cout << "NO" << endl;
         }
+        else{
+            cout << "YES" << endl;
+        }
     }
 
     return 0;
