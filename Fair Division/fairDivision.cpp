@@ -16,7 +16,7 @@ int main(){
                 one++;
             }
             else if(a[i] == 2){
-
+                two++;
             }
         }
 
