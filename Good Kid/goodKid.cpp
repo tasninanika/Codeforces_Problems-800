@@ -9,6 +9,11 @@ int main(){
         int n, a[n];
         cin >> n;
 
+        for(int i = 0; i < n; i++){
+
+
+        }
+
     }
 
     return 0;
