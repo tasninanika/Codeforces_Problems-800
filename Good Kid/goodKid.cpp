@@ -14,6 +14,7 @@ int main(){
             cin >> a[i];
         }
 
+        int maxProduct = 0;
 
         for(int i = 0; i < n; i++){
              int product = 1;
@@ -27,7 +28,7 @@ int main(){
              }
 
              if(product > maxProduct){
-                maxProduct = product;
+                    maxProduct = product;
             }
         }
 
