@@ -25,6 +25,8 @@ int main(){
             product += a[i];
         }
 
+        cout << product << endl;
+
     }
 
     return 0;
