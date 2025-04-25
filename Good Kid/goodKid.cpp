@@ -7,6 +7,7 @@ int main(){
 
     while(t--){
         int n, a[n];
+        cin >> n;
 
     }
 
