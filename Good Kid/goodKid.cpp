@@ -24,6 +24,12 @@ int main(){
                 else {
                     product *= a[j];
                 }
+             }
+
+             if(product > maxProduct){
+                maxProduct = product;
+            }
+        }
 
 
         cout << product << endl;
