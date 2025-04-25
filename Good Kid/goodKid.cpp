@@ -6,10 +6,10 @@ int main(){
     cin >> t;
 
     while(t--){
-        int n, a[n];
+        int n;
         cin >> n;
 
-        int mini = a[0];
+        int a[n];
         for(int i = 0; i < n; i++){
             cin >> a[i];
 
@@ -22,7 +22,7 @@ int main(){
 
         int product = 1;
         for(int i = 0; i < n; i++){
-            product += a[i];
+            product *= a[i];
         }
 
         cout << product << endl;
