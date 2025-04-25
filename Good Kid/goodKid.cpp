@@ -21,6 +21,9 @@ int main(){
                 if(i == j){
                     product *= (a[j] + 1);
                 }
+                else {
+                    product *= a[j];
+                }
 
 
         cout << product << endl;
