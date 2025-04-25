@@ -32,7 +32,7 @@ int main(){
         }
 
 
-        cout << product << endl;
+        cout << maxProduct << endl;
 
     }
 
