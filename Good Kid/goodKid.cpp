@@ -14,7 +14,7 @@ int main(){
             cin >> a[i];
 
             if(mini > a[i]){
-
+                mini = a[i];
             }
         }
 
