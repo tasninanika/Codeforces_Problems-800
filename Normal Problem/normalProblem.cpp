@@ -9,6 +9,8 @@ int main() {
         string a;
         cin >> a;
 
+        string b = a;
+
 
     }
 
