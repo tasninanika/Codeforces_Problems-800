@@ -21,7 +21,7 @@ int main() {
         }
         reverse(b.begin(), b.end());
 
-
+        cout << b << endl;
     }
 
     return 0;
