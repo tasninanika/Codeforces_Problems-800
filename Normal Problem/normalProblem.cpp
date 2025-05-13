@@ -14,6 +14,8 @@ int main() {
         for (int i = 0; i < b.size(); ++i) {
             if (b[i] == 'p'){
                  b[i] = 'q';
+            }
+            else if (b[i] == 'q'){
 
     }
 
