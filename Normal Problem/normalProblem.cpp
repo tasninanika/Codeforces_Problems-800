@@ -12,6 +12,7 @@ int main() {
         string b = a;
 
         for (int i = 0; i < b.size(); ++i) {
+            if (b[i] == 'p'){
 
     }
 
