@@ -16,6 +16,9 @@ int main() {
                  b[i] = 'q';
             }
             else if (b[i] == 'q'){
+                b[i] = 'p';
+            }
+        }
 
     }
 
