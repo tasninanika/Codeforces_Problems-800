@@ -19,6 +19,8 @@ int main() {
                 b[i] = 'p';
             }
         }
+        reverse(b.begin(), b.end());
+
 
     }
 
