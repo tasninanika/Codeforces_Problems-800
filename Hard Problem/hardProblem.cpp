@@ -7,6 +7,7 @@ int main(){
 
     while(t--){
         long long m, a, b, c;
+        cin >> m >> a >> b >> c;
     }
 
 
