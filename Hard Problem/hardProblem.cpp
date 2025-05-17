@@ -10,6 +10,7 @@ int main(){
         cin >> m >> a >> b >> c;
 
         long long row1 = min(m, a);
+        long long row2 = min(m, b);
 
     }
 
