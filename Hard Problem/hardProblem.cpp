@@ -12,6 +12,8 @@ int main(){
         long long row1 = min(m, a);
         long long row2 = min(m, b);
 
+        long long remainingRow1 = m - row1;
+
     }
 
 
