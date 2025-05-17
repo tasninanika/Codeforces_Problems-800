@@ -17,6 +17,8 @@ int main(){
 
         long long noPreferenceSeated = min(c, remainingRow1 + remainingRow2);
 
+        cout << row1 + row2 + noPreferenceSeated << endl;
+
     }
 
 
