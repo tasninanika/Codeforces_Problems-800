@@ -13,6 +13,7 @@ int main(){
         long long row2 = min(m, b);
 
         long long remainingRow1 = m - row1;
+        long long remainingRow2 = m - row2;
 
     }
 
