@@ -15,6 +15,8 @@ int main(){
         long long remainingRow1 = m - row1;
         long long remainingRow2 = m - row2;
 
+        long long noPreferenceSeated = min(c, remainingRow1 + remainingRow2);
+
     }
 
 
