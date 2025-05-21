@@ -6,3 +6,5 @@ int main(){
     cin >> t;
     cin.ignore();
 
+    while(t--){
+
