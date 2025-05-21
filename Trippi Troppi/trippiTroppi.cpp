@@ -16,4 +16,5 @@ int main(){
             if(s[i] == ' '){
                 cout << s[i+1];
             }
+        }
 
