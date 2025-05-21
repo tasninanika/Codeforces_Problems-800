@@ -8,4 +8,5 @@ int main(){
 
     while(t--){
         string s;
+        getline(cin, s);
 
