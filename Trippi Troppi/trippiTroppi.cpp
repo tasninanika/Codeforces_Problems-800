@@ -15,4 +15,5 @@ int main(){
         for(int i = 0; i < s.size(); i++){
             if(s[i] == ' '){
                 cout << s[i+1];
+            }
 
