@@ -17,4 +17,5 @@ int main(){
                 cout << s[i+1];
             }
         }
+        cout << endl;
 
