@@ -7,4 +7,5 @@ int main(){
     cin.ignore();
 
     while(t--){
+        string s;
 
