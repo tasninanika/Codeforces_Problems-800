@@ -6,4 +6,5 @@ int main(){
     cin >> t;
 
     while(t--){
+        int l, r, d, u;
 
