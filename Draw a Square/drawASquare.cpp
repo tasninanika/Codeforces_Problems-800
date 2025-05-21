@@ -11,4 +11,5 @@ int main(){
 
         if(l == r && l == d && l == u && r == d && r == u && d == u){
             cout << "YES" << endl;
-
+        }
+        else{
