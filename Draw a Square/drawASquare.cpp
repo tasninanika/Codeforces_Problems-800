@@ -9,3 +9,5 @@ int main(){
         int l, r, d, u;
         cin >> l >> r >> d >> u;
 
+        if(l == r && l == d && l == u && r == d && r == u && d == u){
+
