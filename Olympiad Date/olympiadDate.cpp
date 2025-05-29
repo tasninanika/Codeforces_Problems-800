@@ -20,3 +20,6 @@ int main() {
         for (int i = 0; i < target.size(); i++) {
             need[target[i]]++;
         }
+
+        unordered_map<char, int> have;
+        int res = 0;
