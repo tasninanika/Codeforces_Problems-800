@@ -35,3 +35,10 @@ int main() {
                     break;
                 }
             }
+
+            if (ok) {
+                res = i + 1;
+                break;
+            }
+        }
+
