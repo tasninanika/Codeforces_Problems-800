@@ -9,3 +9,7 @@ int main() {
         int n;
         cin >> n;
         vector<int> digits(n);
+
+        for(int i = 0; i < n; i++){
+
+        }
