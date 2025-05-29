@@ -27,3 +27,11 @@ int main() {
         for (int i = 0; i < n; i++) {
             char d = '0' + digits[i];
             have[d]++;
+
+            bool ok = true;
+            for (auto [ch, cnt] : need) {
+                if (have[ch] < cnt) {
+                    ok = false;
+                    break;
+                }
+            }
