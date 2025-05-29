@@ -17,3 +17,6 @@ int main() {
         string target = "01032025";
         unordered_map<char, int> need;
 
+        for (int i = 0; i < target.size(); i++) {
+            need[target[i]]++;
+        }
