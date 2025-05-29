@@ -23,3 +23,7 @@ int main() {
 
         unordered_map<char, int> have;
         int res = 0;
+
+        for (int i = 0; i < n; i++) {
+            char d = '0' + digits[i];
+            have[d]++;
