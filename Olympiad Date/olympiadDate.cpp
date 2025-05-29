@@ -15,4 +15,5 @@ int main() {
         }
 
         string target = "01032025";
+        unordered_map<char, int> need;
 
