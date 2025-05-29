@@ -41,4 +41,8 @@ int main() {
                 break;
             }
         }
+        cout << res << "\n";
+    }
 
+    return 0;
+}
