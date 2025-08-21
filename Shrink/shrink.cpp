@@ -14,9 +14,10 @@ int main(){
         for(int i = 3; i <= n; i++){
             cout << i << " ";
         }
-        if (n >= 2){
+        if(n >= 2){
           cout << 2;
         }
+
         cout << endl;
     }
 
